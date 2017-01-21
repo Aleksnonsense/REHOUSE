@@ -120,15 +120,13 @@ background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%
 	font-size: 16px;
 	box-sizing: border-box;
 }
-
-
 .your_name {
 	width: 275px;
 	display: flex;
 	color: #ffffff;
 	font-family: Casper;
 	font-size: 12px;
-	margin-left: 537px;
+	margin-left: 533px;
 	margin-top: 39px;
 }
 .your_name a {
@@ -144,8 +142,6 @@ background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%
 	margin-right: 10px;
 	margin-left: 4px;
 }
-
-
 .logout {
 	padding-left: 23px;
 	width: 103px;
@@ -163,14 +159,6 @@ background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%
 	width: 18px;
 	height: 18px;		
 }
-
-
-
-
-
-
-
-
 .contactinfo {
 	margin-left: 10px;
 	margin-top: 20px;
@@ -616,14 +604,6 @@ background-color: #ffffff;
 margin-top: 29px;
 margin-left: 84px;
 }
-
-/*.d-carousel .jcarousel-item-horizontal #p li {
-	background-image: url('images/redcorner.png');
-	background-position: top right;
-	z-index: 10000;
-
-}*/
-
 .news {
 	width: 1332px;
 }
@@ -825,9 +805,7 @@ margin-top: 22px;
 #toTop:hover {
 	background-image: url('images/totop_hover.png');
 	background-repeat: no-repeat;
-
 }
-
 .login-form {  
   width: 228px;
   margin: 0 auto;
@@ -899,7 +877,6 @@ margin-top: 22px;
 #forgotpas {
 	margin-left: 10px;
 }
-
 .errortext {
 	margin-top: 15px;
 	font-size: 14px;
