@@ -881,5 +881,9 @@ margin-top: 22px;
 	margin-top: 15px;
 	font-size: 14px;
 	color: red;
-	display: none;
+	display: block;
 }
+.form-drop { 
+	left: -9999px; 
+	position:absolute; 
+} 
