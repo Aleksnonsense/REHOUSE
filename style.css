@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
 	font-family: Casper;
 	src: url(fonts/casper/casper.woff);
 }
@@ -120,8 +120,59 @@ background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%
 	font-size: 16px;
 	box-sizing: border-box;
 }
+
+
+.your_name {
+	width: 275px;
+	display: flex;
+	color: #ffffff;
+	font-family: Casper;
+	font-size: 12px;
+	margin-left: 537px;
+	margin-top: 39px;
+}
+.your_name a {
+	text-decoration:none; 
+	color: #ffffff;
+	font-family: Casper;
+	font-size: 12px;
+}
+.your_name a:hover {
+	color: gold;
+}
+.your_login {
+	margin-right: 10px;
+	margin-left: 4px;
+}
+
+
+.logout {
+	padding-left: 23px;
+	width: 103px;
+	position: relative;
+}
+.logout:before {
+	content: "";
+	display: block;
+	position: absolute;
+	background-image: url('images/logout.png');
+	background-repeat: no-repeat;
+	
+	left: 2px;
+	top: -6px;
+	width: 18px;
+	height: 18px;		
+}
+
+
+
+
+
+
+
+
 .contactinfo {
-	margin-left: 12px;
+	margin-left: 10px;
 	margin-top: 20px;
 	color: white;
 	font-family: "Casper";
@@ -408,24 +459,13 @@ margin-right: 5px;
 	top: 0px;
 	left: 0px;
 }
-
-
-
-
-
 .d-carousel .redimg {
 	position: absolute;
 	z-index: 10000;
 	width: 70px;
 	height: 70px;
-	/*left: 183px;*/
 	margin-left: 180px;
 }
-
-
-
-
-
 .d-carousel {
 	margin-left: 181px;
 }
