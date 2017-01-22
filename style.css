@@ -179,7 +179,7 @@ body {
 	margin-left: 80px;
 }
 .contactinfo .imgtel {
-margin-right: 5px;
+	margin-right: 5px;
 }
 
 .social a {
@@ -915,4 +915,79 @@ margin-top: 22px;
 }
 .navigation_string .way a:hover {
 	color: gold;
+}
+
+.selection {
+	display: flex;
+	flex-direction: row;
+	width: 1055px;
+	justify-content: space-between;
+	margin-top: 32px;
+	margin-left: 225px;
+}
+
+
+h2 {
+	color: white;
+	font-family: "Casper";
+	font-size: 24px;
+	font-weight: 700;	
+	text-transform: uppercase;
+	margin-left: 225px;
+	margin-top: 89px;
+}
+
+select {
+	width: 199px;
+	height: 51px;
+    -webkit-appearance: none;
+	background: transparent;
+	background: url(images/select.png) no-repeat right;
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 700;
+	/*text-transform: uppercase;*/
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	padding-left: 5px;
+}
+select option {
+	background-color: #163d7d;
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: none;
+}
+select:focus {
+	color: gold;
+	background: url(images/select_hover.png) no-repeat right;
+}
+
+.search-button {
+	width: 186px;
+	
+	color: #25406a;
+	font-family: "Century Gothic";
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 17.5px;
+
+}
+.search-button a {
+	padding: 14px 68px 13px 68px;
+	text-decoration: none;	
+	border: 1px solid white;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 700;
+	/*background-color: rgba(15, 37, 71, 0.8);*/
+	background: transparent;	
+}
+.search-button a:hover {
+	background-image: linear-gradient(to top, #fcf645 0%, #fcf645 13%, #ffffff 50%, #fcf645 87%, #fcf645 100%);
+color: #25406a;
 }
