@@ -925,8 +925,6 @@ margin-top: 22px;
 	margin-top: 32px;
 	margin-left: 225px;
 }
-
-
 h2 {
 	color: white;
 	font-family: "Casper";
@@ -936,10 +934,11 @@ h2 {
 	margin-left: 225px;
 	margin-top: 89px;
 }
-
 select {
 	width: 199px;
 	height: 51px;
+	 -moz-appearance: none;
+  	appearance: none;
     -webkit-appearance: none;
 	background: transparent;
 	background: url(images/select.png) no-repeat right;
@@ -965,7 +964,6 @@ select:focus {
 	color: gold;
 	background: url(images/select_hover.png) no-repeat right;
 }
-
 .search-button {
 	width: 186px;
 	
@@ -974,7 +972,6 @@ select:focus {
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 17.5px;
-
 }
 .search-button a {
 	padding: 14px 68px 13px 68px;
@@ -990,4 +987,72 @@ select:focus {
 .search-button a:hover {
 	background-image: linear-gradient(to top, #fcf645 0%, #fcf645 13%, #ffffff 50%, #fcf645 87%, #fcf645 100%);
 color: #25406a;
+}
+
+
+
+
+
+
+.products {
+	margin-left: 225px;
+	margin-top: 18px;
+}
+
+.products .prods {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+justify-content: space-between;
+
+	position: relative;
+	width: 1063px;
+}
+.products .prods li {
+	margin-bottom: 68px;
+}
+.products .prods .redimg {
+	position: absolute;
+	z-index: 10000;
+	width: 70px;
+	height: 70px;
+	margin-left: 180px;
+}
+.products .prods h3 {
+	color: white;
+	font-family: "Casper";
+	font-size: 19px;
+	font-weight: 600;
+
+	margin-top: 10px;
+	margin-left: 69px;
+}
+.products .prods h4 {
+	margin: 11px 10px 0px 15px;
+	color: white;
+	font-family: Casper;
+	font-size: 12px;
+	width: 215px;
+	overflow: hidden;
+	text-align: center;
+}
+.products #more {
+	padding: 11px 443px 10px 443px;
+	
+	border-radius: 10px;
+	background: none;
+	border: 1px solid white;
+
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	
+}
+.products #more:hover {
+	background-image: linear-gradient(to top, #f4fd6b 0%, #f4fd6b 13.5%, white 50%, #f4fd6b 86.5%, #f4fd6b 100%);
+	color: #213b64;
+    -webkit-transition: .5s ease;
+	transition: .5s ease;
 }
