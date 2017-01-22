@@ -17,7 +17,7 @@ body {
 	margin: 0 auto;	
 	position: relative;
 	/*background-color: #08367e;*/
-background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%, #0e2447 86.5%, #0e2447 100%);
+/*background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%, #0e2447 86.5%, #0e2447 100%);*/
 	
 }
 
@@ -888,3 +888,31 @@ margin-top: 22px;
 	left: -9999px; 
 	position:absolute; 
 } 
+
+
+/*Second page novostroy*/
+
+
+.navigation_string {
+	width: 100%;
+	min-width: 1500px;
+	border-bottom: 1px solid #c6c95e;
+}
+.navigation_string .way {
+	display: flex;
+	flex-direction: row;
+	color: #bcbcbc;
+	font-size: 14px;
+	margin-top: 24px;
+	margin-left: 87px;
+	
+}
+.navigation_string .way a {	
+	color: #bcbcbc;
+	font-family: Casper;
+	font-size: 12px;
+	text-decoration: none;
+}
+.navigation_string .way a:hover {
+	color: gold;
+}
