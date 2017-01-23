@@ -1051,3 +1051,7 @@ color: #25406a;
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+#loading-div p {
+	text-align: center;
+	color: red;
+}
