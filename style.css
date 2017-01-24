@@ -1051,11 +1051,11 @@ color: #25406a;
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-#mapmap { 
+#mapnovostroy { 
 	height: 495px;
 	width: 1065px;
 }
-#mapmap iframe {
+#mapnovostroy iframe {
 	margin-left: 225px;
 	margin-top: 46px;
 }
