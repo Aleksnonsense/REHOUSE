@@ -925,7 +925,7 @@ margin-top: 22px;
 	margin-top: 32px;
 	margin-left: 225px;
 }
-h2 {
+.h2novostroy h2 {
 	color: white;
 	font-family: "Casper";
 	font-size: 24px;
@@ -1051,7 +1051,27 @@ color: #25406a;
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-#loading-div p {
-	text-align: center;
-	color: red;
+#mapmap { 
+	height: 495px;
+	width: 1065px;
+}
+#mapmap iframe {
+	margin-left: 225px;
+	margin-top: 46px;
+}
+.seotext {
+	width: 1065px;
+	margin-left: 225px;
+	margin-top: 82px;
+	margin-bottom: 96px;
+}
+
+.seotext p {
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+	opacity: 0.53;
+	text-align: justify;
 }
