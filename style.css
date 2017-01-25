@@ -382,6 +382,12 @@ body {
 	-webkit-transition: .3s ease;
 	transition: .3s ease;
 }
+
+.navigation ol li .f {
+	z-index: 10001;
+}
+
+
 #nav .sell {
 	margin-left: 118px;
 	margin-top: 33px;	
