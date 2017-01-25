@@ -50,13 +50,21 @@ body {
 	right:0; 
 	margin-right:92px; 
 	background:url(images/slidebox_next.png) no-repeat left top;
+	opacity: 0.7;
+	cursor:pointer;
 }
-#slidebox .next:hover{background:url(images/slidebox_next_g.png) no-repeat left top;}
+#slidebox .next:hover{background:url(images/slidebox_next_g.png) no-repeat left top;
+opacity: 0.7;
+cursor:pointer;}
 #slidebox .previous {
 	margin-left:92px; 
 	background:url(images/slidebox_prev.png) no-repeat left top;
+	opacity: 0.7;
+	cursor:pointer;
 }
-#slidebox .previous:hover{background:url(images/slidebox_prev_g.png) no-repeat left top;}
+#slidebox .previous:hover{background:url(images/slidebox_prev_g.png) no-repeat left top;
+opacity: 0.7;
+cursor:pointer;}
 #slidebox .thumbs {
 	position:absolute; 
 	z-index:2; 
@@ -551,11 +559,16 @@ body {
 	margin-left: 46px;
 }
 .d-carousel #more:hover {
-	background-image: linear-gradient(to top, #f4fd6b 0%, #f4fd6b 13.5%, white 50%, #f4fd6b 86.5%, #f4fd6b 100%);
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	color: #213b64;
 -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+
+.d-carousel ul li img {
+	object-fit: cover;
+}
+
 .min-content{
 	width: 249px;
 	height: 135px;
@@ -596,7 +609,7 @@ body {
 #follow:hover {
 	color: #213b64;
 	font-weight: 600px;
-	background-image: linear-gradient(to top, #fcf645 0%, #fcf645 13%, white 50%, #fcf645 87%, #fcf645 100%);
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	-webkit-transition: .4s ease;
 	transition: .4s ease;
 }
@@ -681,13 +694,13 @@ margin-left: 84px;
 	text-decoration: none;
 }
 .news .content1 a:hover {
-	background-image: linear-gradient(to top, #f4fd6b 0%, #f4fd6b 13.5%, white 50%, #f4fd6b 86.5%, #f4fd6b 100%);
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	color: #213b64;
 -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
 .news .content2 a:hover {
-	background-image: linear-gradient(to top, #f4fd6b 0%, #f4fd6b 13.5%, white 50%, #f4fd6b 86.5%, #f4fd6b 100%);
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	color: #213b64;
 -webkit-transition: .5s ease;
 	transition: .5s ease;
@@ -709,7 +722,7 @@ margin-top: 22px;
 	margin-left: 225px;
 }
 .news .morenews #more:hover {
-	background-image: linear-gradient(to top, #f4fd6b 0%, #f4fd6b 13.5%, white 50%, #f4fd6b 86.5%, #f4fd6b 100%);
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	color: #213b64;
 -webkit-transition: .5s ease;
 	transition: .5s ease;
@@ -991,7 +1004,7 @@ select:focus {
 	background: transparent;	
 }
 .search-button a:hover {
-	background-image: linear-gradient(to top, #fcf645 0%, #fcf645 13%, #ffffff 50%, #fcf645 87%, #fcf645 100%);
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 color: #25406a;
 }
 
@@ -1052,10 +1065,13 @@ color: #25406a;
 	
 }
 .products #more:hover {
-	background-image: linear-gradient(to top, #f4fd6b 0%, #f4fd6b 13.5%, white 50%, #f4fd6b 86.5%, #f4fd6b 100%);
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	color: #213b64;
     -webkit-transition: .5s ease;
 	transition: .5s ease;
+}
+.prods li img {
+	object-fit: cover;
 }
 #mapnovostroy { 
 	height: 495px;
