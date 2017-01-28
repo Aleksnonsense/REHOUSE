@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+    <title>Rehouse</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/rehousemin.jpg" type="image/jpg">
+
+    <script src="jquery-1.4.4.min.js"></script>
+    <script src="slides.min.jquery.js"></script>
+    <script>
+        $(function(){
+            $('#products').slides({
+                preload: true,
+                preloadImage: '',
+                effect: 'slide, fade',
+                crossfade: true,
+                slideSpeed: 200,
+                fadeSpeed: 500,
+                generateNextPrev: true,
+                generatePagination: false
+            });
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="minslider.css">
+</head>
+
+
+<body>
+    <div class="container" id="container">
+
+        <div class="header">
+
+            <div class="logo">
+                <a href="index.html" id=""><img src="images/logo.png"></a>
+            </div>
+
+            <div class="search">
+                <p><form class="form-search" method="get" action="/search" target="_blank"><input type="text" name="q" placeholder="Введите слово или фразу" value="" /></form></p>
+
+
+
+                <div class="your_name">
+                    <div><p>Ваш логин:</p></div>
+                    <div class="your_login"><p><a href="#" class="" id="#">Nonamesss</a></p></div>
+                    <div class="logout"><p><a href="#">Выйти из аккаунта</a></p></div>
+                </div>
+
+
+
+            </div>
+
+            <div class="contactinfo">
+                <div class="tel">
+                    <div class="imgtel">
+                        <img src="images/tel.png">
+                    </div>
+                    <div class="number">
+                        <p>+38063 000 0000</p>
+                        <p>+38063 000 0000</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="#" class="fb"></a>
+                    <a href="#" class="tw"></a>
+                    <a href="#" class="gmail"></a>
+                    <a href="#" class="vk"></a>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <a href="#" id="fav">Список желаний</a>
+                <a href="feedback.html" id="blink">Обратный звонок</a>
+            </div>
+
+        </div>
+
+        <div id="nav">
+            <div class="navigation">
+                <ol>
+                    <li>
+                        <a href="#" id="">Продажа</a>
+                        <ol>
+                            <li><a href="#">Купить квартиру</a></li>
+                            <li><a href="#">Купить дом</a></li>
+                            <li><a href="#">Купить участок</a></li>
+                            <li><a href="#">Купить коммерческую</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#" id="">Аренда</a>
+                        <ol>
+                            <li><a href="#">Снять квартиру</a></li>
+                            <li><a href="#">Снять дом</a></li>
+                            <li><a href="#">Снять участок</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#" id="">Новостройки</a></li>
+                    <li><a href="#" id="">Менеджеры</a></li>
+                    <li>
+                        <a href="#" id="">О нас</a>
+                        <ol>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Вакансии агенства</a></li>
+                        </ol>
+
+
+                    </li>
+                    <li>
+                        <a href="#" class="f" id="log_in">Войти</a>
+
+                        <div class="form-drop">
+                            <ol class="login">
+                                <li>
+                                    <div class="login">
+                                        <div class="bodyform">
+                                            <form action="#" class="login-form">
+                                                <div class="headform">
+                                                    <h1>Вход в аккаунт</h1>
+                                                </div>
+                                                <div class="input-wrap">
+                                                    <div class="label">Введите ваш email</div>
+                                                    <label for="" class="user-id"><input type="text" name="userId" placeholder="email"></label>
+                                                    <div class="label">Введите пароль</div>
+                                                    <label for="" class="password"><input type="password" name="password" placeholder="Вfi пароль"></label>
+                                                </div>
+
+                                                <div class="errortext">
+                                                    <span class="erroremail">Вы ввели не правильный эмейл</span>
+                                                    <span class="errorpas">Вы ввели не правильный пароль</span>
+                                                </div>
+                                                <div class="buttonblock">
+                                                    <input type="submit" class="button" value="ВОЙТИ">
+                                                </div>
+                                                <div class="forgotpas" id="forgotpas">
+                                                    <p class="forgot"><a href="#" class="#" id="#">Забыли пароль?</a></p>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="sell">
+                <a href="#" id="">Хочу продать!</a>
+            </div>
+        </div>
+
+        <div class="navigation_string">
+            <div class="way">
+                <a href="index.html">Главная</a>
+                <pre> </pre>
+                <p>/</p>
+                <pre> </pre>
+                <a href="novostroy.html">Новостройки</a>
+                <pre> </pre>
+                <p>/</p>
+                <pre> </pre>
+                <a href="gallery.html">ЖК Альтаир</a>
+            </div>
+        </div>
+        <div class="h2novostroy"><h2>ЖК Альтаир</h2></div>
+
+
+
+
+
+
+        
+        <div id="products_example">
+            <div id="products">
+                <div class="slides_container">
+                    <a href=""><img src="images/altair1.jpg" width="800" alt=""></a>
+                    <a href=""><img src="images/altair2.jpg" width="800" alt=""></a>
+                    <a href=""><img src="images/altair3.jpg" width="800" alt=""></a>   
+                </div>
+                <ul class="pagination">
+                    <li><a href="#"><img src="images/altair1.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/altair2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/altair3.jpg" alt=""></a></li>                                 
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="table_of_prod">
+            <table>
+                <tr>
+                    <td>Цена</td>
+                    <td>от 14940 грн/м²</td>
+                </tr>
+                <tr>
+                    <td>Адрес</td>
+                    <td>Одесса, Люстдорфская ул. Святослава Рихтера, 148/2</td>
+                </tr>
+                <tr>
+                    <td>Количество домов</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Количество секций</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Этажность</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Количество квартир</td>
+                    <td>210</td>
+                </tr>
+                <tr>
+                    <td>Количество квартир</td>
+                    <td>Монолитно-каркасная</td>
+                </tr>
+                <tr>
+                    <td>Материал стен</td>
+                    <td>Газобетон</td>
+                </tr>
+                <tr>
+                    <td>Высота потолков</td>
+                    <td>3 метра</td>
+                </tr>
+                <tr>
+                    <td>Отопление</td>
+                    <td>Центральное</td>
+                </tr>
+                <tr>
+                    <td>Отопление</td>
+                    <td>Гостевая</td>
+                </tr>
+                <tr>
+                    <td>Сдача в эксплуатацию</td>
+                    <td>2 квартал 2019</td>
+                </tr>
+                <tr>
+                    <td>Застройщик</td>
+                    <td>Кто-то</td>
+                </tr>
+                <tr>
+                    <td>Отдел продаж</td>
+                    <td>+380990000000</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="planirovka">
+            <img src="images/plan1.jpg">
+            <img src="images/plan1.jpg">      
+            <img src="images/plan1.jpg">      
+            <img src="images/plan1.jpg">
+        </div>
+      
+      <div class="video">
+        <iframe width="711" height="533" src="https://www.youtube.com/embed/pP9YV_P6WsM" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    <div id="mapnovostroy_prod">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d101681.05935008111!2d30.6809567124572!3d46.42350678371972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L7QtNC10YHRgdCwINC20LXQvNGH0YPQttC40L3Riw!5e0!3m2!1sru!2sua!4v1485299309010" width="1065px" height="495px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div class="h2novostroy"><h2>Другие Новостройки</h2></div>
+
+    <div class="othernovostroy">
+               <ul class="prods" id="data-container">
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/news1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 0000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+
+                </div>
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/prod1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+                </div>
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/prod1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 0000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+                </div>
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/prod1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+                </div>
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/news1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 0000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+
+                </div>
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/news1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 0000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+
+                </div>
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/news1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 0000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+
+                </div>
+                <div class="data-item">
+                    <li>
+                        <div class="redimg"><img src="images/newred.png"></div>
+                        <a href="#"><img src="images/news1.jpg" width="250" height="212" alt="" /></a>
+                        <div class="min-content">
+                            <h3>1-к квартира</h3>
+                            <h4>Lorem ipsum dolor sitddddddddddddddddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd amet eter vestibulum eget nunc. </h4>
+                            <p class="cost">35 0000 $</p>
+                            <a href="#" id="follow">❯</a>
+                        </div>
+                    </li>
+
+                </div>
+                </ul>
+    </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div id="toTop"></div>
+            <div class="social">
+                <a href="#" class="fb"></a>
+                <a href="#" class="tw"></a>
+                <a href="#" class="gmail"></a>
+                <a href="#" class="vk"></a>
+            </div>
+            <div class="bottomnav">
+                <a href="#" class="">Новости</a>
+                <a href="#" class="">Контакты</a>
+                <a href="#" class="">Карта сайта</a>
+                <a href="#" class="">Отзывы</a>
+                <a href="#" class="">Правила</a>
+            </div>
+        </div>
+</div>
+
+<script type="text/javascript" src="jquery.1.10.min.js"></script>
+<script type="text/javascript" src="lazyload.js"></script>
+</body>
+</html>
