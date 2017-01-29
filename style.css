@@ -417,7 +417,7 @@ cursor:pointer;}
 }
 .h1 {
 	width: 442px;
-	color: #213b64;
+	color: #c4c148;
 	font-family: "Casper";
 	font-size: 98px;
 	font-weight: 600;
@@ -427,12 +427,12 @@ cursor:pointer;}
 }
 .h2 {
 	width: 364px;
-	color: #23436b;
+	color: #c4c148;
 	font-family: "Casper";
 	font-size: 30px;
 	font-weight: 600;	
 	text-transform: uppercase;
-	margin-left: 223px;
+	margin-left: 227px;
 }
 .knowmore {
 	margin-top: 49px;
@@ -578,7 +578,7 @@ cursor:pointer;}
 .cost {
 	color: white;
 	font-family: "Casper";
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 600;
 
 	padding: 8px 20px;
@@ -980,6 +980,10 @@ select option {
 	text-transform: none;
 }
 select:focus {
+	color: gold;
+	background: url(images/select_hover.png) no-repeat right;
+}
+select:hover {
 	color: gold;
 	background: url(images/select_hover.png) no-repeat right;
 }
