@@ -26,7 +26,7 @@ ol,ul { list-style:none; }
 	background:url(images/arrow-prev.png);
 }
 #products .next {
-	left:832px;
+	left:830px;
 	background:url(images/arrow-next.png);
 }
 #products .slides_container {
@@ -40,6 +40,7 @@ ol,ul { list-style:none; }
 	width:252px;
 	height: 600px;
 	margin-top: 0px;
+	margin-left: 35px;
 }
 #products .pagination {
 	display: flex;
@@ -55,28 +56,12 @@ ol,ul { list-style:none; }
 	width: 252px;
 }
 #products .pagination li.current img {
-	border:2px solid gold;
-	width: 248px;
+	border:4px solid gold;
+	width: 244px;
 }
 
 
 
-.table_of_prod table {
-	width: 1055px;
-	margin-left: 225px;
-	margin-top: 29px;
-	border: 1px solid white;
 
-
-	opacity: 0.8;
-	color: #ffffff;
-	font-family: "Century Gothic";
-	font-size: 24px;
-	font-weight: 700;
-}
-.table_of_prod table tr td {
-	border: 1px solid white;
-	padding: 6px 0px 6px 22px;
-}
 
 
