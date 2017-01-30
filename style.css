@@ -617,11 +617,11 @@ cursor:pointer;}
 .streak {
 	/* Style for "Прямоуголь" */
 	margin: 0;
-width: 1333px;
-height: 3px;
-background-color: #ffffff;
-margin-top: 29px;
-margin-left: 84px;
+	width: 1333px;
+	height: 3px;
+	background-color: #ffffff;
+	margin-top: 29px;
+	margin-left: 84px;
 }
 .news {
 	width: 1332px;
@@ -963,7 +963,7 @@ select {
 	background: url(images/select.png) no-repeat right;
 	color: #ffffff;
 	font-family: "Century Gothic";
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 700;
 	/*text-transform: uppercase;*/
 	border-bottom: 1px solid white;
@@ -986,13 +986,15 @@ select:focus {
 select:hover {
 	color: gold;
 	background: url(images/select_hover.png) no-repeat right;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
 }
 .search-button {
 	width: 186px;
 	
 	color: #25406a;
 	font-family: "Century Gothic";
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 700;
 	margin-top: 17.5px;
 }
@@ -1010,6 +1012,8 @@ select:hover {
 .search-button a:hover {
 	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 color: #25406a;
+-webkit-transition: .5s ease;
+	transition: .5s ease;
 }
 
 
@@ -1092,6 +1096,21 @@ color: #25406a;
 	margin-bottom: 96px;
 }
 .seotext p {
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+	opacity: 0.6;
+	text-align: justify;
+}
+.seotext2 {
+	width: 1065px;
+	margin-left: 225px;
+	margin-top: 18px;
+	margin-bottom: 54px;
+}
+.seotext2 p {
 	color: #ffffff;
 	font-family: "Century Gothic";
 	font-size: 18px;
@@ -1186,4 +1205,45 @@ color: #25406a;
 }
 .prods li img {
 	object-fit: cover;
+}
+
+
+
+
+
+.sorting {
+	display: flex;
+	flex-direction: row;
+	width: 1065px;
+	justify-content: space-between;
+	margin-top: 54px;
+	margin-left: 232px;
+	margin-bottom: 65px;
+}
+
+.rooms {
+	width: 260px;
+	
+	color: #25406a;
+	font-family: "Century Gothic";
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 17.5px;
+}
+.rooms a {
+	padding: 14px 60px 13px 60px;
+	text-decoration: none;	
+	border: 1px solid white;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 700;
+	/*background-color: rgba(15, 37, 71, 0.8);*/
+	background: transparent;	
+}
+.rooms a:hover {
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
+color: #25406a;
+-webkit-transition: .5s ease;
+	transition: .5s ease;
 }
