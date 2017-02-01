@@ -3,24 +3,17 @@
 	src: url(fonts/casper/casper.woff);
 }
 
-
 body {
 	margin:0; 
 	padding:0; 
 	background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%, #0e2447 86.5%, #0e2447 100%);
-	
-	
 }
 .container {
 	min-width: 1500px;
 	max-width: 1500px;
 	margin: 0 auto;	
-	position: relative;
-	/*background-color: #08367e;*/
-/*background-image: linear-gradient(to top, #0e2447 0%, #0e2447 13.5%, #163d7d 50%, #0e2447 86.5%, #0e2447 100%);*/
-	
+	position: relative;	
 }
-
 #slidebox {
 	position:relative; 
 	margin:0 auto;
@@ -334,7 +327,6 @@ cursor:pointer;}
 }
 .navigation > ol {
 	width: 800px;
-	/*margin-top: 33px;*/
 	margin-left: 388px;
 	display: flex;
 	flex-direction: row;
@@ -374,7 +366,6 @@ cursor:pointer;}
 	position:absolute;
 	left: 0px;
 	background-color: rgba(3, 2, 2, 0.6);
-	/*border-radius: 0 0 6px 6px;*/
 	color: white;
 	width: 230px;
 }
@@ -390,12 +381,9 @@ cursor:pointer;}
 	-webkit-transition: .3s ease;
 	transition: .3s ease;
 }
-
 .navigation ol li .f {
 	z-index: 10001;
 }
-
-
 #nav .sell {
 	margin-left: 118px;
 	margin-top: 33px;	
@@ -545,12 +533,10 @@ cursor:pointer;}
 	text-transform: uppercase;
 }
 .d-carousel #more {
-	padding: 11px 469px 10px 474px;
-	
+	padding: 11px 469px 10px 474px;	
 	border-radius: 10px;
 	background: none;
 	border: 1px solid white;
-
 	color: white;
 	font-family: "Century Gothic";
 	font-size: 18px;
@@ -564,11 +550,15 @@ cursor:pointer;}
 -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-
 .d-carousel ul li img {
 	object-fit: cover;
 }
 
+/*nihuya sebe fix*/
+/*.d-carousel ul li a {
+	vertical-align: sub;
+	font-size: 0;
+}*/
 .min-content{
 	width: 249px;
 	height: 135px;
@@ -679,7 +669,6 @@ cursor:pointer;}
 	text-align: justify;
 	display: inline-block;
 	vertical-align: top;
-	/*margin-bottom: 40px;*/
 	margin-left: 69px;
 }
 .news .content1 a, .content2 a {
@@ -705,9 +694,13 @@ cursor:pointer;}
 -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+
 .news .morenews {
-margin-top: 22px;
+	margin-top: 22px;
 	margin-bottom: 65px;
+}
+.news .img img {
+	object-fit: cover;
 }
 .news .morenews #more {
 	padding: 11px 469px 10px 474px;	
@@ -727,6 +720,7 @@ margin-top: 22px;
 -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+
 .footer {
 	height: 52px;
 	background-color: #0f2547;
@@ -990,8 +984,7 @@ select:hover {
 	transition: .5s ease;
 }
 .search-button {
-	width: 186px;
-	
+	width: 186px;	
 	color: #25406a;
 	font-family: "Century Gothic";
 	font-size: 15px;
@@ -1011,11 +1004,10 @@ select:hover {
 }
 .search-button a:hover {
 	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
-color: #25406a;
--webkit-transition: .5s ease;
+    color: #25406a;
+    -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-
 
 .products {
 	margin-left: 225px;
@@ -1124,7 +1116,6 @@ color: #25406a;
 	margin-left: 225px;
 	margin-top: 29px;
 	border: 1px solid white;
-
 	opacity: 0.8;
 	color: #ffffff;
 	font-family: "Century Gothic";
@@ -1135,7 +1126,6 @@ color: #25406a;
 	border: 1px solid white;
 	padding: 6px 0px 6px 22px;
 }
-
 .planirovka {
 	width: 1055px;
 	margin-left: 225px;
@@ -1144,13 +1134,13 @@ color: #25406a;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
-
 }
 .planirovka img {
 	margin-bottom: 14px;
 }
 .video {
 	margin-left: 395px;
+	margin-top: 14px;
 }
 #mapnovostroy_prod { 
 	height: 495px;
@@ -1161,10 +1151,10 @@ color: #25406a;
 	margin-top: 14px;
 }
 
-
 .othernovostroy {
 	margin-top: 29px;
 	margin-left: 225px;
+	margin-bottom: 36px;
 }
 .othernovostroy .prods {
 	display: flex;
@@ -1206,11 +1196,6 @@ color: #25406a;
 .prods li img {
 	object-fit: cover;
 }
-
-
-
-
-
 .sorting {
 	display: flex;
 	flex-direction: row;
@@ -1220,10 +1205,8 @@ color: #25406a;
 	margin-left: 232px;
 	margin-bottom: 65px;
 }
-
 .rooms {
-	width: 260px;
-	
+	width: 260px;	
 	color: #25406a;
 	font-family: "Century Gothic";
 	font-size: 15px;
@@ -1238,12 +1221,45 @@ color: #25406a;
 	font-family: "Century Gothic";
 	font-size: 18px;
 	font-weight: 700;
-	/*background-color: rgba(15, 37, 71, 0.8);*/
 	background: transparent;	
 }
 .rooms a:hover {
 	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
-color: #25406a;
--webkit-transition: .5s ease;
+	color: #25406a;
+    -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+
+.h2sale h2 {
+	color: white;
+	font-family: "Casper";
+	font-size: 24px;
+	font-weight: 700;	
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+.seotext3 {
+	width: 1065px;
+	margin-left: 225px;
+	margin-top: 32px;
+	margin-bottom: 54px;
+}
+.seotext3 p {
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+	opacity: 0.6;
+	text-align: justify;
+}
+
+/*dirty hack
+.othernovostroy ul .data-item li a {
+	vertical-align: sub;
+	font-size: 0;
+}
+.products ul .data-item li a {
+	vertical-align: sub;
+	font-size: 0;
+}*/

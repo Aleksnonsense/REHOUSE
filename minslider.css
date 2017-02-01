@@ -26,11 +26,11 @@ ol,ul { list-style:none; }
 	background:url(images/arrow-prev.png);
 }
 #products .next {
-	left:830px;
+	left:796px;
 	background:url(images/arrow-next.png);
 }
 #products .slides_container {
-	width:800px;
+	width:767px;
 	height:600px;
 	overflow:hidden;
 	position:relative;
@@ -54,14 +54,18 @@ ol,ul { list-style:none; }
 }
 #products .pagination li img {
 	width: 252px;
+	height:188px;
+	object-fit: cover;
 }
 #products .pagination li.current img {
 	border:4px solid gold;
 	width: 244px;
+	height:180px;
+	object-fit: cover;
 }
-
-
-
+#products .slides_container img {
+	object-fit: cover;
+}
 
 
 
