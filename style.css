@@ -555,10 +555,11 @@ cursor:pointer;}
 }
 
 /*nihuya sebe fix*/
-/*.d-carousel ul li a {
+.d-carousel ul li .fix {
 	vertical-align: sub;
 	font-size: 0;
-}*/
+}
+
 .min-content{
 	width: 249px;
 	height: 135px;
@@ -1254,12 +1255,12 @@ select:hover {
 	text-align: justify;
 }
 
-/*dirty hack
-.othernovostroy ul .data-item li a {
+/*dirty hack*/
+.othernovostroy ul .data-item li .fix {
 	vertical-align: sub;
 	font-size: 0;
 }
-.products ul .data-item li a {
+.products ul .data-item li .fix {
 	vertical-align: sub;
 	font-size: 0;
-}*/
+}
