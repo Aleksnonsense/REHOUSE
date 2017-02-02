@@ -948,6 +948,15 @@ cursor:pointer;}
 	margin-left: 225px;
 	margin-top: 59px;
 }
+.h2prodsale h2 {
+	color: white;
+	font-family: "Casper";
+	font-size: 24px;
+	font-weight: 700;	
+	text-transform: uppercase;
+	margin-left: 225px;
+	/*margin-top: 59px;*/
+}
 select {
 	width: 199px;
 	height: 51px;
