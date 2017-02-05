@@ -1148,7 +1148,7 @@ select:hover {
 .planirovka img {
 	margin-bottom: 14px;
 }
-.video {
+.video-youtube {
 	margin-left: 395px;
 	margin-top: 14px;
 }
@@ -1160,7 +1160,6 @@ select:hover {
 	margin-left: 225px;
 	margin-top: 14px;
 }
-
 .othernovostroy {
 	margin-top: 29px;
 	margin-left: 225px;
@@ -1273,3 +1272,68 @@ select:hover {
 	vertical-align: sub;
 	font-size: 0;
 }
+.map_managercard {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 41px;
+}
+#mapapart_prod { 
+	width: 614px;
+}
+#mapapart_prod iframe {
+	margin-left: 225px;
+	margin-top: 14px;
+}
+.map_managercard .manager {
+	display: flex;
+	margin-left: 275px;
+	margin-top: 120px;	
+	width:422px;
+}
+.map_managercard .manager .manager_info {
+	display: flex;
+	margin-top: 10px;
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+.map_managercard .manager .manager_info .name {
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.map_managercard .manager .manager_info p{
+	margin-left: 3px;
+}
+.map_managercard .manager .photo img {
+	object-fit: cover;
+}
+
+.map_managercard .manager .favorite {
+	margin-top: 46px;
+	margin-left: -115px;
+}
+.map_managercard .manager #favorite {	
+	width: 422px;
+	padding: 15px 69px 17px 74px;	
+	border-radius: 10px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.map_managercard .manager #favorite:hover {
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
+	color: #213b64;
+    -webkit-transition: .5s ease;
+	transition: .5s ease;
+}
+
+
