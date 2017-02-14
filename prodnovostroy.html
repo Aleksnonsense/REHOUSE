@@ -4,7 +4,7 @@
     <title>Rehouse</title>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/rehousemin.jpg" type="image/jpg">
-
+                                    <!-- Min Slider -->
     <script src="jquery-1.4.4.min.js"></script>
     <script src="slides.min.jquery.js"></script>
     <script>
@@ -21,6 +21,20 @@
             });
         });
     </script>
+                                    <!--  FancyBox -->
+        <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+        <script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() { 
+            $("a.first").fancybox(); 
+            $("a.two").fancybox(); 
+            $("a.video").fancybox({"frameWidth":560,"frameHeight":340}); 
+            $("a.content").fancybox({"frameWidth":600,"frameHeight":300}); 
+            });
+        </script>
+
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="minslider.css">
@@ -163,7 +177,12 @@
                 <a href="gallery.html">ЖК Альтаир</a>
             </div>
         </div>
-        <div class="h2novostroy"><h2>ЖК Альтаир</h2></div>
+        <div class="h2novostroy">
+        <h2>ЖК Альтаир</h2>
+                        <div class="favorite">
+                            <a href="#" id="favorite">Добавить в избранное</a>
+                        </div> 
+        </div>
         
         <div id="products_example">
             <div id="products">
@@ -241,12 +260,36 @@
             </table>
         </div>
 
+
+
+
+
+
+
+
+
+
+
+
         <div class="planirovka">
-            <img src="images/plan1.jpg">
-            <img src="images/plan1.jpg">      
-            <img src="images/plan1.jpg">      
-            <img src="images/plan1.jpg">
+           <a class="#" rel="group" title="Планировка" href="images/plan1.jpg"><img src="images/plan1.jpg" border="0"/></a>
+           <a class="#" rel="group" title="Планировка" href="images/plan1.jpg"><img src="images/plan1.jpg" border="0"/></a>
+           <a class="#" rel="group" title="Планировка" href="images/plan1.jpg"><img src="images/plan1.jpg" border="0"/></a>
+           <a class="#" rel="group" title="Планировка" href="images/plan1.jpg"><img src="images/plan1.jpg" border="0"/></a>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
       
       <div class="video-youtube">
         <iframe width="711" height="533" src="https://www.youtube.com/embed/pP9YV_P6WsM" frameborder="0" allowfullscreen></iframe>

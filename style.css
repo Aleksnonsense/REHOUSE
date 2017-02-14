@@ -1148,13 +1148,6 @@ select:hover {
 	border: 1px solid white;
 	padding: 6px 0px 6px 22px;
 }
-
-
-
-
-
-
-
 .table_of_prodapart table {
 	width: 350px;
 	margin-left: 225px;
@@ -1170,13 +1163,6 @@ select:hover {
 	/*border: 1px solid white;*/
 	padding: 3px 0px 3px 0px;
 }
-
-
-
-
-
-
-
 .planirovka {
 	width: 1055px;
 	margin-left: 225px;
@@ -1319,9 +1305,6 @@ select:hover {
 	opacity: 1;
 	font-size: 20px;
 }
-
-
-
 .seotext3 {
 	width: 1065px;
 	margin-left: 225px;
@@ -1362,7 +1345,7 @@ select:hover {
 .map_managercard .manager {
 	display: flex;
 	margin-left: 275px;
-	margin-top: 120px;	
+	margin-top: 10px;	
 	width:422px;
 }
 .map_managercard .manager .manager_info {
@@ -1388,11 +1371,19 @@ select:hover {
 	object-fit: cover;
 }
 
-.map_managercard .manager .favorite {
-	margin-top: 46px;
-	margin-left: -115px;
+.h2novostroy {
+	display: flex;
+	flex-direction: row;
+	position: relative;
 }
-.map_managercard .manager #favorite {	
+
+
+.h2novostroy .favorite {
+	position: absolute;
+	top: 60px;
+	right: 219px;
+}
+.h2novostroy #favorite {	
 	width: 422px;
 	padding: 15px 69px 17px 74px;	
 	border-radius: 10px;
@@ -1404,12 +1395,16 @@ select:hover {
 	font-weight: 700;
 	text-decoration: none;
 }
-.map_managercard .manager #favorite:hover {
+.h2novostroy #favorite:hover {
 	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	color: #213b64;
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+
+
+
+
 #loading-div {
 	margin-left: 48%;
   width: 0;
