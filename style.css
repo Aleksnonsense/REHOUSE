@@ -303,8 +303,8 @@ cursor:pointer;}
 	height: 26px;		
 }
 .header .feedback a:hover {
-		opacity: 0.8;
-		color: gold;
+	opacity: 0.8;
+	color: gold;
 }
 #blink {
   -webkit-animation: blink 1s linear infinite;
@@ -609,7 +609,6 @@ cursor:pointer;}
 }
 
 .streak {
-	/* Style for "Прямоуголь" */
 	margin: 0;
 	width: 1333px;
 	height: 3px;
@@ -698,7 +697,6 @@ cursor:pointer;}
 -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-
 .news .morenews {
 	margin-top: 22px;
 	margin-bottom: 65px;
@@ -837,7 +835,7 @@ cursor:pointer;}
 .user-id input {
   display: block;
   border-radius: 15px 15px 15px 15px;
-  margin: 7px 5px 0 7px;
+  margin: 7px 5px 0 9px;
   padding: 10px 25px 8px 15px;
   color: white;
   outline: none;
@@ -847,7 +845,7 @@ cursor:pointer;}
 .password input {
   display: block;
   border-radius: 15px 15px 15px 15px;
-  margin: 7px 5px 0 7px;
+  margin: 7px 5px 0 9px;
   padding: 10px 25px 9px 15px;
   color: white;
   outline: none;
@@ -915,8 +913,6 @@ z-index: 10001;
     display:none;
 }
 /*Second page novostroy*/
-
-
 .navigation_string {
 	width: 100%;
 	min-width: 1500px;
@@ -940,7 +936,6 @@ z-index: 10001;
 .navigation_string .way a:hover {
 	color: gold;
 }
-
 .selection {
 	display: flex;
 	flex-direction: row;
@@ -965,7 +960,6 @@ z-index: 10001;
 	font-weight: 700;	
 	text-transform: uppercase;
 	margin-left: 225px;
-	/*margin-top: 59px;*/
 }
 select {
 	width: 199px;
@@ -979,7 +973,6 @@ select {
 	font-family: "Century Gothic";
 	font-size: 15px;
 	font-weight: 700;
-	/*text-transform: uppercase;*/
 	border-bottom: 1px solid white;
 	border-left: 1px solid white;
 	border-top: 1px solid white;
@@ -1019,7 +1012,6 @@ select:hover {
 	font-family: "Century Gothic";
 	font-size: 18px;
 	font-weight: 700;
-	/*background-color: rgba(15, 37, 71, 0.8);*/
 	background: transparent;
 	cursor:pointer; 	
 }
@@ -1060,7 +1052,6 @@ select:hover {
 	font-weight: 600;
 
 	margin-top: 10px;
-	/*margin-left: 69px;*/
 	text-align: center;
 }
 .products .prods h4 {
@@ -1083,8 +1074,7 @@ select:hover {
 	font-family: "Century Gothic";
 	font-size: 18px;
 	font-weight: 700;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 .products #more:hover {
 	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
@@ -1160,7 +1150,6 @@ select:hover {
     opacity: 0.6;
 }
 .table_of_prodapart table tr td {
-	/*border: 1px solid white;*/
 	padding: 3px 0px 3px 0px;
 }
 .planirovka {
@@ -1174,6 +1163,9 @@ select:hover {
 }
 .planirovka img {
 	margin-bottom: 14px;
+	width: 522px;
+	height: 390px;
+	object-fit: cover;
 }
 .video-youtube {
 	margin-left: 395px;
@@ -1218,7 +1210,7 @@ select:hover {
 	font-weight: 600;
 
 	margin-top: 10px;
-	margin-left: 69px;
+	text-align: center;
 }
 .othernovostroy .prods h4 {
 	margin: 11px 10px 0px 15px;
@@ -1235,11 +1227,12 @@ select:hover {
 .sorting {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	width: 1065px;
 	justify-content: space-between;
 	margin-top: 54px;
 	margin-left: 232px;
-	margin-bottom: 65px;
+	margin-bottom: 5px;
 }
 .rooms {
 	width: 260px;	
@@ -1249,6 +1242,9 @@ select:hover {
 	font-weight: 700;
 	margin-top: 17.5px;
 }
+.rooms:nth-child(5) {
+    margin-top: 50px;
+   }  
 .rooms a {
 	padding: 14px 60px 13px 60px;
 	text-decoration: none;	
@@ -1265,7 +1261,6 @@ select:hover {
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-
 .h2sale h2 {
 	color: white;
 	font-family: "Casper";
@@ -1320,7 +1315,6 @@ select:hover {
 	opacity: 0.6;
 	text-align: justify;
 }
-
 /*dirty hack*/
 .othernovostroy ul .data-item li .fix {
 	vertical-align: sub;
@@ -1370,14 +1364,11 @@ select:hover {
 .map_managercard .manager .photo img {
 	object-fit: cover;
 }
-
 .h2novostroy {
 	display: flex;
 	flex-direction: row;
 	position: relative;
 }
-
-
 .h2novostroy .favorite {
 	position: absolute;
 	top: 60px;
@@ -1401,12 +1392,8 @@ select:hover {
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-
-
-
-
 #loading-div {
-	margin-left: 48%;
+	margin-left: 50%;
   width: 0;
   padding: 18px;
   background-image:
