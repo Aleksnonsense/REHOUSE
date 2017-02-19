@@ -1224,36 +1224,44 @@ select:hover {
 .prods li img {
 	object-fit: cover;
 }
+
+
 .sorting {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 1065px;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	margin-top: 54px;
 	margin-left: 232px;
 	margin-bottom: 5px;
 }
-.rooms {
-	width: 260px;	
+.rooms {	
 	color: #25406a;
 	font-family: "Century Gothic";
 	font-size: 15px;
 	font-weight: 700;
-	margin-top: 17.5px;
+	/*margin-top: 17.5px;*/
 }
-.rooms:nth-child(5) {
+.rooms {
     margin-top: 50px;
-   }  
+    margin-left: 20px;
+   } 
+
+
+
+
+
+
 .rooms a {
-	padding: 14px 60px 13px 60px;
+	padding: 14px 30px 13px 30px;
 	text-decoration: none;	
 	border: 1px solid white;
 	color: white;
 	font-family: "Century Gothic";
 	font-size: 18px;
 	font-weight: 700;
-	background: transparent;	
+	background: transparent;
 }
 .rooms a:hover {
 	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
