@@ -1139,7 +1139,7 @@ select:hover {
 	padding: 6px 0px 6px 22px;
 }
 .table_of_prodapart table {
-	width: 350px;
+	width: 455px;
 	margin-left: 225px;
 	/*margin-top: 19px;*/
 	    color: #ffffff;
@@ -1224,46 +1224,31 @@ select:hover {
 .prods li img {
 	object-fit: cover;
 }
-
-
 .sorting {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 1065px;
-	/*justify-content: space-between;*/
+	justify-content: space-between;
 	margin-top: 54px;
-	margin-left: 232px;
+	margin-left: 225px;
 	margin-bottom: 5px;
 }
-.rooms {	
-	color: #25406a;
-	font-family: "Century Gothic";
-	font-size: 15px;
-	font-weight: 700;
-	/*margin-top: 17.5px;*/
-}
-.rooms {
-    margin-top: 50px;
-    margin-left: 20px;
-   } 
-
-
-
-
-
-
-.rooms a {
-	padding: 14px 30px 13px 30px;
-	text-decoration: none;	
-	border: 1px solid white;
+.sorting button {
+ 	height: 40px;
+	width: 33%;
+	background: transparent;
+	margin-top: 4px;
 	color: white;
 	font-family: "Century Gothic";
 	font-size: 18px;
 	font-weight: 700;
-	background: transparent;
+	text-decoration: none;
+	width: 33%;
+
+	border:1px solid white;
 }
-.rooms a:hover {
+.sorting button:hover {
 	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
 	color: #25406a;
     -webkit-transition: .5s ease;
@@ -1401,7 +1386,7 @@ select:hover {
 	transition: .5s ease;
 }
 #loading-div {
-	margin-left: 50%;
+	margin-left: 49%;
   width: 0;
   padding: 18px;
   background-image:

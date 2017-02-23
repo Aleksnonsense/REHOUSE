@@ -17,11 +17,13 @@ background-color: rgba(3, 2, 2, 0.6);
 text-decoration:none; 
 padding:0 0.6em; border-left-width:0; 
 border-bottom:none;
-padding:10px 0 10px 15px; 
+padding:15px 0 15px 15px; 
 }
 .tabset_tabs a:hover { 
 color:gold; background-color: rgba(3, 2, 2, 0.4);
-padding:10px 0 10px 15px;
+padding:17px 0 17px 15px;
+ -webkit-transition: .5s ease;
+	transition: .5s ease;
 }
 .tabset_tabs a.active { 
 color:black; background-color:white; 
@@ -30,13 +32,13 @@ cursor:default;
 border-bottom:white; 
 padding-top:1px; 
 padding-bottom:1px; 
-padding:10px 0 10px 20px; 
+padding:15px 0 15px 20px; 
 }
 .tabset_tabs a.active:before {
      content: "➤ ";
  }
 .tabset_tabs li.firstchild a { 
-order-left-width:1px 
+border-left-width:1px 
 }
 .tabset_content	{ 
 background-color:none;
@@ -61,4 +63,26 @@ width:1350px;
 #pagecontent {
 	display: flex;
 	flex-direction: row;
+}
+
+.photo_of_manager {
+	display: flex;
+	flex-direction: row;
+}
+.photo_of_manager img {
+	object-fit: cover;
+}
+.photo_of_manager .input {
+	/*height: 40px;
+	width: 33%;
+	background: transparent;
+	margin-top: 4px;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	width: 33%;
+
+	border:1px solid white;*/
 }
