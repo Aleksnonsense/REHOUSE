@@ -16,7 +16,7 @@ white-space:nowrap;
 margin:0; padding:0;
 display: flex;
 flex-direction:column; 
-width: 150px;  
+width: 210px;  
 }
 .tabset_tabs a	{ 
 color:white;     
@@ -72,6 +72,16 @@ width:1350px;
 	flex-direction: row;
 }
 
+#adminka1,
+#adminka2,
+#adminka3,
+#adminka4,
+#adminka5,
+#adminka6,
+#adminka7,
+#adminka8 {
+	height: 600px;
+}
 .photo_of_manager {
 	display: flex;
 	flex-direction: row;
@@ -103,12 +113,6 @@ width:1350px;
 }
 .contact_info table tr {
 	border:5px solid transparent;
-}
-.contact_info  table td {
-	width: 73px;
-}
-.social table td {
-	width: 73px;
 }
 .social table {
 	width: 500px;
