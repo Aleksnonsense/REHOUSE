@@ -1,8 +1,24 @@
+#pagecontent {
+	font-family: "Century Gothic";
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
 button {
 	cursor: pointer;
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
 }
 input {
 	cursor: pointer;
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
 }
 
 .tabset_tabs	{ 
@@ -71,7 +87,7 @@ width:1350px;
 	display: flex;
 	flex-direction: row;
 }
-
+/*
 #adminka1,
 #adminka2,
 #adminka3,
@@ -80,8 +96,8 @@ width:1350px;
 #adminka6,
 #adminka7,
 #adminka8 {
-	height: 600px;
-}
+	height: cover;
+}*/
 .photo_of_manager {
 	display: flex;
 	flex-direction: row;
@@ -126,3 +142,53 @@ width:1350px;
 .social table tr {
 	border:5px solid transparent;
 }
+
+#adminka2 .header_admin {
+	display: flex;
+	flex-direction: row;
+}
+#adminka2 .header_admin button {
+	margin-left: 40px;
+}
+#adminka2 .add_new {
+	margin-top: 8px;
+}
+#adminka2 .add_new div {
+	margin-bottom: 5px;
+}
+.add_photo .photo1,
+.photo2,
+.photo3 {
+	display:flex;
+	flex-direction:row;
+}
+.add_photo  div {
+	margin-bottom: 6px;
+}
+.add_photo {
+	margin-top: 8px;
+}
+.add_photo  img {
+	margin-right: 6px;
+}
+
+table.added {
+	width: 600px;
+}
+table.added tr td {
+	border:1px solid white;
+}
+
+table.added .prod_info {
+margin-top: 5px;
+	margin-left: 5px;
+}
+table.added .prod_info h3 {
+	color: white;
+	margin-bottom: 5px; 
+}
+table.added .edit_del {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 16px bold;
