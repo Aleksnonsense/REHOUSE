@@ -204,17 +204,15 @@
 <div id="adminka2" class="tabset_content">    
             <h2 class="tabset_label">Продажа</h2>   
 
-                <div class="header_admin">
-                    <h2>Добавленные объявления</h2>
-                    <button>Добавить новое объявление ▼</button>
-                </div>
+    <div class="headline">              
+        <h2>Добавленные объявления</h2><button>Добавить новое объявление ▼</button>
+    </div>
+
+<div class="header_admin">           
 
                 <div class="add_new">
-
-
-
                         <div class="typeofproperty">
-                            <select>
+                            <select class="added_select">
                                 <option>Тип недвижимости</option>
                                 <option>--</option>
                                 <option>--</option>
@@ -229,7 +227,7 @@
                         </div>
 
                         <div class="region">
-                            <select>
+                            <select class="added_select">
                                <option>Район</option>
                                 <option>--</option>
                                 <option>--</option>
@@ -244,7 +242,7 @@
                         </div>
 
                         <div class="_cost">
-                            <select>
+                            <select class="added_select">
                                 <option>Цена за кв. м</option>
                                 <option>--</option>
                                 <option>--</option>
@@ -259,7 +257,7 @@
                         </div>
 
                         <div class="trimcondition">
-                            <select>
+                            <select class="added_select">
                                 <option>Состояние отделки</option>
                                 <option>--</option>
                                 <option>--</option>
@@ -274,8 +272,8 @@
                         </div>
 
                           <div class="title">
-                            <select>
-                                <option>Заглавие</option>
+                            <select class="added_select">
+                                <option>Заголовок</option>
                                 <option>--</option>
                                 <option>--</option>
                                 <option>--</option>
@@ -291,48 +289,53 @@
 <div class="add_description>">
         <form name="test" method="post" action="input1.php">
                 <h3>Точная цена:</h3>
-                <input type="text" size="40">
+                <input type="text" size="40" class="_cost_">
                   
                 <h3>Описание</h3>
-                <textarea name="comment" cols="40" rows="3"></textarea>
-                   <!-- <input type="submit" value="Отправить"> -->
+                <textarea name="comment" cols="40" rows="8"></textarea>                   
         </form>
 </div>
 
 <div class="add_photo">
     <div class="photo1">
-                        <img src="images/www.jpg" height="50">
-                        <form enctype="multipart/form-data" action="№" method="POST">
-                                <div class="file_upload">
-                                    <input name="f" type="file">
-                                </div>
-                                    <input type="submit" value="Сменить фото">
-                        </form>
+            <img src="images/www.jpg" height="50">
+            <form enctype="multipart/form-data" action="№" method="POST">
+                <div class="file_upload">
+                        <input name="f" type="file" class="select_photo">
+                </div>
+                        <input type="submit" value="Сменить фото" class="load_photo">
+            </form>
     </div>                    
     <div class="photo2">
-                        <img src="images/www.jpg" height="50">
-                        <form enctype="multipart/form-data" action="№" method="POST">
-                                <div class="file_upload">
-                                    <input name="f" type="file">
-                                </div>
-                                    <input type="submit" value="Сменить фото">
-                        </form>
+            <img src="images/www.jpg" height="50">
+            <form enctype="multipart/form-data" action="№" method="POST">
+                <div class="file_upload">
+                        <input name="f" type="file" class="select_photo">
+                </div>
+                        <input type="submit" value="Сменить фото" class="load_photo">
+            </form>
     </div>                    
     <div class="photo3">
-                        <img src="images/www.jpg" height="50">
-                        <form enctype="multipart/form-data" action="№" method="POST">
-                                <div class="file_upload">
-                                    <input name="f" type="file">
-                                </div>
-                                    <input type="submit" value="Сменить фото">
-                        </form>
+            <img src="images/www.jpg" height="50">
+            <form enctype="multipart/form-data" action="№" method="POST">
+                <div class="file_upload">
+                        <input name="f" type="file" class="select_photo">
+                </div>
+                        <input type="submit" value="Сменить фото" class="load_photo">
+            </form>
     </div>
 </div>
 
     <div class="add_video">
-            <input type="search" name="input_url" list="url-list" placeholder="Cсылка"><p>- Введите ссылку на видео с YouTube</p>
+            <input type="search" name="input_url" list="url-list" placeholder="Cсылка" class="youtube-video">
+            <p> - Введите ссылку на видео с YouTube</p>
 
     </div>
+    <input type="submit" value="Добавить" class="add_button">
+</div>
+
+
+
 
 
 <div class="added">
@@ -442,38 +445,9 @@
             </td>
         </tr>
 </table>
+    <button class="delete_all">Удалить выбранные</button>
 </div>
 </div>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -486,13 +460,148 @@
         </div>
 
         <div id="adminka4" class="tabset_content">    
-            <h2 class="tabset_label">adminka</h2>    
-            <p>Âêëàäêà ¹4</p>
+            <h2 class="tabset_label">adminka</h2>
+
         </div>
+
+
 
         <div id="adminka5" class="tabset_content">    
             <h2 class="tabset_label">adminka</h2>    
-            <p>Âêëàäêà ¹1</p>
+             <div class="headline">              
+        <h2>Добавленные новости</h2><button>Добавить новость ▼</button>
+    </div>
+
+<div class="header_admin">
+    <div class="img_news">
+
+        <img src="images/www.jpg" width="150" height="150">
+        <form enctype="multipart/form-data" action="№" method="POST">
+        <div class="file_upload">
+            <input name="f" type="file">
+        </div>
+        <input type="submit" value="Сменить картинку">
+        </form>
+    </div>
+
+<div class="add_description>">
+        <form name="test" method="post" action="input1.php">
+                <h3>Заголовок</h3>
+                <input type="text" size="40" class="_cost_">
+                  
+                <h3>Описание</h3>
+                <textarea name="comment" cols="40" rows="8"></textarea>
+                <h3>Дата</h3>
+                <input type="text" size="40" class="_cost_">             
+        </form>
+</div>
+<input type="submit" value="Добавить" class="add_button">
+</div>
+
+
+
+<div class="added">
+    <table class="added">
+        <tr>
+            <td><input type="checkbox" class="checkbox" id="checkbox" /></td>
+            <td>
+                <div class="prod_info">
+                    <h3>1-к квартира</h3>
+                    <img src="images/prod1.jpg" width="90px" height="50" alt="" />
+                </div>
+            </td>
+            <td>
+                <div class="edit_del">
+                    <button>Редактировать</button>
+                    <pre> </pre>
+                    <p>/</p>
+                    <pre> </pre>
+                    <button>Удалить</button>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" class="checkbox" id="checkbox" /></td>
+            <td>
+                <div class="prod_info">
+                    <h3>1-к квартира</h3>
+                    <img src="images/prod1.jpg" width="90px" height="50" alt="" />
+                </div>
+            </td>
+            <td>
+                <div class="edit_del">
+                    <button>Редактировать</button>
+                    <pre> </pre>
+                    <p>/</p>
+                    <pre> </pre>
+                    <button>Удалить</button>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" class="checkbox" id="checkbox" /></td>
+            <td>
+                <div class="prod_info">
+                    <h3>1-к квартира</h3>
+                    <img src="images/prod1.jpg" width="90px" height="50" alt="" />
+                </div>
+            </td>
+            <td>
+                <div class="edit_del">
+                    <button>Редактировать</button>
+                    <pre> </pre>
+                    <p>/</p>
+                    <pre> </pre>
+                    <button>Удалить</button>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" class="checkbox" id="checkbox" /></td>
+            <td>
+                <div class="prod_info">
+                    <h3>1-к квартира</h3>
+                    <img src="images/prod1.jpg" width="90px" height="50" alt="" />
+
+                </div>
+            </td>
+            <td>
+                <div class="edit_del">
+                    <button>Редактировать</button>
+                    <pre> </pre>
+                    <p>/</p>
+                    <pre> </pre>
+                    <button>Удалить</button>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" class="checkbox" id="checkbox" /></td>
+            <td>
+                <div class="prod_info">
+                    <h3>1-к квартира</h3>
+                    <img src="images/prod1.jpg" width="90px" height="50" alt="" />
+                </div>
+            </td>
+            <td>
+                <div class="edit_del">
+                    <button>Редактировать</button>
+                    <pre> </pre>
+                    <p>/</p>
+                    <pre> </pre>
+                    <button>Удалить</button>
+                </div>
+            </td>
+        </tr>
+</table>
+    <button class="delete_all">Удалить выбранные</button>
+</div>
+</div>
+
         </div>     
 
 
@@ -511,6 +620,7 @@
             <p>Âêëàäêà ¹4</p>
         </div>
 </div>
+
 
 
 

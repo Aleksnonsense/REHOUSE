@@ -1,24 +1,24 @@
-#pagecontent {
+/*#pagecontent {
 	font-family: "Century Gothic";
 	font-size: 16px;
 	font-weight: 400;
 	text-decoration: none;
 	color: white;
-}
+}*/
 
 button {
 	cursor: pointer;
-	font-family: "Century Gothic";
+	/*font-family: "Century Gothic";
 	font-size: 14px;
 	font-weight: 400;
-	text-decoration: none;
+	text-decoration: none;*/
 }
 input {
 	cursor: pointer;
-	font-family: "Century Gothic";
+	/*font-family: "Century Gothic";
 	font-size: 14px;
 	font-weight: 400;
-	text-decoration: none;
+	text-decoration: none;*/
 }
 
 .tabset_tabs	{ 
@@ -87,17 +87,7 @@ width:1350px;
 	display: flex;
 	flex-direction: row;
 }
-/*
-#adminka1,
-#adminka2,
-#adminka3,
-#adminka4,
-#adminka5,
-#adminka6,
-#adminka7,
-#adminka8 {
-	height: cover;
-}*/
+
 .photo_of_manager {
 	display: flex;
 	flex-direction: row;
@@ -127,8 +117,8 @@ width:1350px;
 	color: white;	
 	margin-top: 4px;
 }
-.contact_info table tr {
-	border:5px solid transparent;
+.contact_info table tr td {
+	padding: 8px;
 }
 .social table {
 	width: 500px;
@@ -143,12 +133,14 @@ width:1350px;
 	border:5px solid transparent;
 }
 
-#adminka2 .header_admin {
-	display: flex;
-	flex-direction: row;
+.header_admin {	
+	width: 400px;
+	border: 1px solid white;
+	margin-top: 20px;
+	padding: 10px;
 }
 #adminka2 .header_admin button {
-	margin-left: 40px;
+	/*margin-left: 40px;*/
 }
 #adminka2 .add_new {
 	margin-top: 8px;
@@ -163,17 +155,16 @@ width:1350px;
 	flex-direction:row;
 }
 .add_photo  div {
-	margin-bottom: 6px;
+	margin-bottom: 10px;
 }
 .add_photo {
 	margin-top: 8px;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	padding: 10px;
 }
 .add_photo  img {
-	margin-right: 6px;
-}
-
-table.added {
-	width: 600px;
+	margin-right: 7px;
 }
 table.added tr td {
 	border:1px solid white;
@@ -192,3 +183,64 @@ table.added .edit_del {
 	flex-direction: row;
 	color: white;
 	font-size: 16px bold;
+}
+
+select.added_select {
+	width: 300px;
+}
+input._cost_ {
+	width: 300px;
+}
+textarea {
+	width: 400px;
+}
+input.youtube-video {
+	width: 300px;
+	margin-top:10px;
+	margin-left: 50px;
+}
+.add_video p {
+	margin-left: 50px;
+}
+.add_button {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 320px;
+}
+.added {
+	margin-top: 20px;
+}
+.select_photo {
+	width: 225px;
+}
+.load_photo {
+	width: 115px;
+}
+.added table tr td {
+	vertical-align: middle;
+	padding: 10px 40px 10px 40px;
+}
+.headline {
+	display: flex;
+	flex-direction: row;
+	width: 400px;
+	justify-content: space-between;
+}
+button.delete_all {
+	margin-top: 10px;
+	margin-left: 472px;
+}
+.img_news img {
+	object-fit: cover;
+}
+.img_news {
+	display: flex;
+	flex-direction: row;
+}
+.img_news input {
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+.prod_info img {
+	object-fit: cover;
+}
