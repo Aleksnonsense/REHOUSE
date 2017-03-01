@@ -205,140 +205,10 @@
             <h2 class="tabset_label">Продажа</h2>   
 
     <div class="headline">              
-        <h2>Добавленные объявления</h2><button>Добавить новое объявление ▼</button>
+        <h2>Добавленные объявления</h2><button>Добавить новое объявление ►</button>
     </div>
-
-<div class="header_admin">           
-
-                <div class="add_new">
-                        <div class="typeofproperty">
-                            <select class="added_select">
-                                <option>Тип недвижимости</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                            </select>
-                        </div>
-
-                        <div class="region">
-                            <select class="added_select">
-                               <option>Район</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                            </select>
-                        </div>
-
-                        <div class="_cost">
-                            <select class="added_select">
-                                <option>Цена за кв. м</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                            </select>
-                        </div>
-
-                        <div class="trimcondition">
-                            <select class="added_select">
-                                <option>Состояние отделки</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                            </select>
-                        </div>
-
-                          <div class="title">
-                            <select class="added_select">
-                                <option>Заголовок</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                                <option>--</option>
-                            </select>
-                        </div>
-                </div>  
-<div class="add_description>">
-        <form name="test" method="post" action="input1.php">
-                <h3>Точная цена:</h3>
-                <input type="text" size="40" class="_cost_">
-                  
-                <h3>Описание</h3>
-                <textarea name="comment" cols="40" rows="8"></textarea>                   
-        </form>
-</div>
-
-<div class="add_photo">
-    <div class="photo1">
-            <img src="images/www.jpg" height="50">
-            <form enctype="multipart/form-data" action="№" method="POST">
-                <div class="file_upload">
-                        <input name="f" type="file" class="select_photo">
-                </div>
-                        <input type="submit" value="Сменить фото" class="load_photo">
-            </form>
-    </div>                    
-    <div class="photo2">
-            <img src="images/www.jpg" height="50">
-            <form enctype="multipart/form-data" action="№" method="POST">
-                <div class="file_upload">
-                        <input name="f" type="file" class="select_photo">
-                </div>
-                        <input type="submit" value="Сменить фото" class="load_photo">
-            </form>
-    </div>                    
-    <div class="photo3">
-            <img src="images/www.jpg" height="50">
-            <form enctype="multipart/form-data" action="№" method="POST">
-                <div class="file_upload">
-                        <input name="f" type="file" class="select_photo">
-                </div>
-                        <input type="submit" value="Сменить фото" class="load_photo">
-            </form>
-    </div>
-</div>
-
-    <div class="add_video">
-            <input type="search" name="input_url" list="url-list" placeholder="Cсылка" class="youtube-video">
-            <p> - Введите ссылку на видео с YouTube</p>
-
-    </div>
-    <input type="submit" value="Добавить" class="add_button">
-</div>
-
-
-
-
-
 <div class="added">
+<button class="delete_all">Удалить выбранные</button>
     <table class="added">
         <tr>
             <td><input type="checkbox" class="checkbox" id="checkbox" /></td>
@@ -445,7 +315,6 @@
             </td>
         </tr>
 </table>
-    <button class="delete_all">Удалить выбранные</button>
 </div>
 </div>
 
@@ -469,38 +338,12 @@
         <div id="adminka5" class="tabset_content">    
             <h2 class="tabset_label">adminka</h2>    
              <div class="headline">              
-        <h2>Добавленные новости</h2><button>Добавить новость ▼</button>
-    </div>
-
-<div class="header_admin">
-    <div class="img_news">
-
-        <img src="images/www.jpg" width="150" height="150">
-        <form enctype="multipart/form-data" action="№" method="POST">
-        <div class="file_upload">
-            <input name="f" type="file">
-        </div>
-        <input type="submit" value="Сменить картинку">
-        </form>
-    </div>
-
-<div class="add_description>">
-        <form name="test" method="post" action="input1.php">
-                <h3>Заголовок</h3>
-                <input type="text" size="40" class="_cost_">
-                  
-                <h3>Описание</h3>
-                <textarea name="comment" cols="40" rows="8"></textarea>
-                <h3>Дата</h3>
-                <input type="text" size="40" class="_cost_">             
-        </form>
-</div>
-<input type="submit" value="Добавить" class="add_button">
-</div>
-
-
+                <h2>Добавленные новости</h2><button>Добавить новость ►</button>
+            </div>
 
 <div class="added">
+<button class="delete_all2">Удалить выбранные</button>
+
     <table class="added">
         <tr>
             <td><input type="checkbox" class="checkbox" id="checkbox" /></td>
@@ -598,10 +441,8 @@
             </td>
         </tr>
 </table>
-    <button class="delete_all2">Удалить выбранные</button>
 </div>
 </div>
-
         </div>     
 
 
@@ -652,8 +493,8 @@
                 <a href="#" class="">Отзывы</a>
                 <a href="#" class="">Правила</a>
             </div>
-        </div>
 </div> -->
+</div>
 
 
 </body>

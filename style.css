@@ -218,16 +218,16 @@ cursor:pointer;}
  	background-image: url('images/fb-g.png');
  	display: block;
  }
-.social .tw {
+.social .yt {
 	height: 39px;
 	width: 39px;
- 	background-image: url('images/tw.png');
+ 	background-image: url('images/youtube.png');
  	background-repeat: no-repeat;
  }
- .social .tw:hover {
+ .social .yt:hover {
  	height: 39px;
 	width: 39px;
- 	background-image: url('images/tw-g.png');
+ 	background-image: url('images/youtube_hover.png');
  	display: block;
  }
 .social .gmail {
@@ -563,11 +563,26 @@ cursor:pointer;}
 	font-size: 0;
 }
 
-.min-content{
+.min-content {
 	width: 249px;
 	height: 135px;
 	border: 1px solid white;
 	position: relative;
+}
+.min-content .like {
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	background-image:url(images/like.png);
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.min-content .like:hover {
+	background-image: url(images/like_hover.png);
+	display: block;
+	width: 32px;
+	height: 32px;
 }
 .cost {
 	color: white;
