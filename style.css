@@ -860,9 +860,6 @@ cursor:pointer;}
 	padding-bottom: 1px;
 	border-bottom: 1px solid white;
 }
-
-
-
 .footer {
 	height: 52px;
 	background-color: #0f2547;
@@ -1545,4 +1542,25 @@ z-index: 10001;
 }
 @keyframes loading-div {
   100% {transform: rotate(360deg);}
+}
+
+
+.h2novostroy span {
+	color: gold;
+}
+.map_website ol {
+	margin-left: 225px;
+	margin-top: 30px;
+	margin-bottom: 400px;
+}
+.map_website a {
+	text-decoration:none;
+	color: #fffffe;
+	font-family: "Century Gothic";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.map_website a:hover {
+	color: gold;
 }
