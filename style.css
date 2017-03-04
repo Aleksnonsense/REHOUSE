@@ -622,7 +622,6 @@ cursor:pointer;}
 	-webkit-transition: .4s ease;
 	transition: .4s ease;
 }
-
 .streak {
 	margin: 0;
 	width: 1333px;
@@ -631,6 +630,10 @@ cursor:pointer;}
 	margin-top: 29px;
 	margin-left: 84px;
 }
+
+
+
+
 .news {
 	width: 1332px;
 }
@@ -646,7 +649,7 @@ cursor:pointer;}
 	border: 2px solid white;
 	border-radius: 10px;
 }
-.news .firstnews {
+.news div {
 	margin-bottom: 9px;
 }
 .news h2 {
@@ -716,11 +719,27 @@ cursor:pointer;}
 	margin-top: 22px;
 	margin-bottom: 65px;
 }
+.news .morenews1 {
+	margin-top: 22px;
+	margin-bottom: 65px;
+}
 .news .img img {
 	object-fit: cover;
 }
 .news .morenews #more {
 	padding: 11px 469px 10px 474px;	
+	border-radius: 10px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	margin-left: 225px;
+}
+.news .morenews1 #more {
+	padding: 11px 450px 10px 448px;	
 	border-radius: 10px;
 	background: none;
 	border: 1px solid white;
@@ -737,6 +756,112 @@ cursor:pointer;}
 -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+.news .morenews1 #more:hover {
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
+	color: #213b64;
+-webkit-transition: .5s ease;
+	transition: .5s ease;
+}
+
+
+
+
+.news1 {
+	width: 1332px;
+}
+.news1 .img {
+	display: inline-block;
+}
+.news1 .firstnews, .secondnews {
+	padding-top:20px;
+	padding-bottom: 25px;
+	margin-left: 85px;
+	text-align: center;
+	width: 1332px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+.news1 div {
+	margin-bottom: 9px;
+}
+.news1 h2 {
+	margin-top: 35px;
+	margin-left: 225px;
+	margin-bottom: 9px;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.news1 h3 {
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.news1 h4 {
+	color: #7c7c7c;
+	font-family: "Century Gothic";
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.news1 p {
+	color: white;
+	line-height: 15px;
+	font-size: 12px;
+	font-family: "Century Gothic";
+	margin-bottom: 20px;
+}
+.news1 .comment1, .comment2 {
+	width: 1046px;
+	text-align: justify;
+	vertical-align: top;
+	margin-left: 141px;
+}
+.news1 .morenews1 {
+	margin-top: 22px;
+	margin-bottom: 65px;
+}
+.news1 .morenews1 #more {
+	padding: 11px 450px 10px 448px;	
+	border-radius: 10px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	margin-left: 225px;
+}
+.news1 .morenews1 #more:hover {
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
+	color: #213b64;
+-webkit-transition: .5s ease;
+	transition: .5s ease;
+}
+.name_date {
+	display: flex;
+	flex-direction: row;
+	vertical-align: bottom;
+}
+.news1 h3 {
+	padding-bottom: 1px;
+	border-bottom: 1px solid white;
+}
+.news1 pre {
+	padding-bottom: 1px;
+	border-bottom: 1px solid white;
+}
+.news1 h4 {
+	padding-bottom: 1px;
+	border-bottom: 1px solid white;
+}
+
+
 
 .footer {
 	height: 52px;
