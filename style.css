@@ -571,9 +571,18 @@ cursor:pointer;}
 }
 .min-content .like {
 	position: absolute;
-	top: 2px;
-	right: 3px;
+	top: 91px;
+	right: 212px;
 	background-image:url(images/like.png);
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.min-content .liked {
+	position: absolute;
+	top: 91px;
+	right: 212px;
+	/*background-image:url(images/liked.png);*/
 	display: block;
 	width: 32px;
 	height: 32px;
