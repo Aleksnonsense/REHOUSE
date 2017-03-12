@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rehouse</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/rehousemin.jpg" type="image/jpg">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" id=""><img src="images/logo.png"></a>
+            </div>
+            <div class="search">
+                <p><form class="form-search" method="get" action="/search" target="_blank"><input type="text" name="q" placeholder="Введите слово или фразу" value="" /></form></p>
+                <div class="your_name">
+                    <div><p>Ваш логин:</p></div>
+                    <div class="your_login"><p><a href="#" class="" id="#">Nonamesss</a></p></div>
+                    <div class="logout"><p><a href="#">Выйти из аккаунта</a></p></div>
+                </div>
+            </div>
+            <div class="contactinfo">
+                <div class="tel">
+                    <div class="imgtel">
+                        <img src="images/tel.png">
+                    </div>
+                    <div class="number">
+                        <p>+38063 000 0000</p>
+                        <p>+38063 000 0000</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="#" class="fb"></a>
+                    <a href="#" class="yt"></a>
+                    <a href="#" class="gmail"></a>
+                    <a href="#" class="vk"></a>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <a href="#" id="fav">Список желаний</a>
+                <a href="feedback.html" id="blink">Обратный звонок</a>
+            </div>
+
+        </div>
+
+        <div id="nav">
+            <div class="navigation">
+                <ol>
+                    <li>
+                        <a href="#" id="">Продажа</a>
+                        <ol>
+                            <li><a href="#">Купить квартиру</a></li>
+                            <li><a href="#">Купить дом</a></li>
+                            <li><a href="#">Купить участок</a></li>
+                            <li><a href="#">Купить коммерческую</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#" id="">Аренда</a>
+                        <ol>
+                            <li><a href="#">Снять квартиру</a></li>
+                            <li><a href="#">Снять дом</a></li>
+                            <li><a href="#">Снять участок</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="novostroy.html" id="">Новостройки</a></li>
+                    <li><a href="#" id="">Менеджеры</a></li>
+                    <li>
+                        <a href="#" id="">О нас</a>
+                        <ol>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Вакансии агенства</a></li>
+                        </ol>
+
+
+                    </li>
+                    <li>
+                        <a href="#" class="f" id="log_in">Войти</a>
+
+                        <div class="form-drop">
+                            <ol class="login">
+                                <li>
+                                    <div class="login">
+                                        <div class="bodyform">
+                                            <form action="#" class="login-form">
+                                                <div class="headform">
+                                                    <h1>Вход в аккаунт</h1>
+                                                </div>
+                                                <div class="input-wrap">
+                                                    <div class="label">Введите ваш email</div>
+                                                    <label for="" class="user-id"><input type="text" name="userId" placeholder="email"></label>
+                                                    <div class="label">Введите пароль</div>
+                                                    <label for="" class="password"><input type="password" name="password" placeholder="Вfi пароль"></label>
+                                                </div>
+
+                                                <div class="errortext">
+                                                    <span class="erroremail">Вы ввели не правильный эмейл</span>
+                                                    <span class="errorpas">Вы ввели не правильный пароль</span>
+                                                </div>
+                                                <div class="buttonblock">
+                                                    <input type="submit" class="button" value="ВОЙТИ">
+                                                </div>
+                                                <div class="forgotpas" id="forgotpas">
+                                                    <p class="forgot"><a href="#" class="#" id="#">Забыли пароль?</a></p>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="sell">
+                <a href="#" id="">Хочу продать!</a>
+            </div>
+        </div>
+
+        <div class="navigation_string">
+            <div class="way">
+                <a href="index.html">Главная</a>
+                <pre> </pre>
+                <p>/</p>
+                <pre> </pre>
+                <a href="managers.html">Менеджеры</a>
+            </div>
+        </div>
+
+<div class="managers">
+    <h2>Свяжитесь с нами, заполнив форму ниже</h2>
+
+
+<div class="form">
+            <form id="application" action="#" method="POST"  name=" application ">
+
+                    <h3>Имя</h3>
+                <input name="name" id="applicationName" maxlength="25" placeholder="" required />
+                    <h3>Email</h3>
+                <input name="email" type="email" id="applicationEmail" maxlength="35" placeholder="" required />
+                    <h3>Телефон</h3>
+                <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="" required/>
+
+               <!--  <input type=»tel» pattern="+3\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" name=»phone» placeholder=»(050)121-34-57″ title=»Формат ввода (050) 121-34-57″ required/> -->
+                
+                    <h3>Сообщение</h3>
+                <p><textarea rows="10" cols="45" name="text" id="applicationText" placeholder="" required/></textarea></p>
+
+
+                <button class="applicationButton" type="submit" form="application">Отправить</button>
+            </form>
+    
+    </div>   
+
+
+    <div class="footer">
+        <div id="toTop"></div>
+            <div class="social">
+                <a href="#" class="fb"></a>
+                <a href="#" class="tw"></a>
+                <a href="#" class="gmail"></a>
+                <a href="#" class="vk"></a>
+            </div>
+            <div class="bottomnav">
+                <a href="#" class="">Новости</a>
+                <a href="#" class="">Контакты</a>
+                <a href="#" class="">Карта сайта</a>
+                <a href="#" class="">Отзывы</a>
+                <a href="#" class="">Правила</a>
+            </div>
+        </div>
+</div>
+
+
+</body>
+</html>

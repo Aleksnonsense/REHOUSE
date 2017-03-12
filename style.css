@@ -1626,3 +1626,91 @@ z-index: 10001;
 .map_website a:hover {
 	color: gold;
 }
+
+
+
+
+
+#application {
+    /*margin: 0 auto;*/
+    width: 462px;
+    margin-bottom: 285px;
+    margin-left: 519px;
+} 
+#application h3 {
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 24px;
+	font-weight: 700;
+	 text-align: center;
+	 margin-top: 47px;
+}
+/*Стили полей для ввода*/
+#applicationName, 
+#applicationEmail, 
+#applicationTelephone {
+    width: 403px;
+    height: 35px;
+    background: none;
+    margin-top: 27px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    font-weight: 700;
+    margin-left: 29.5px;
+}
+#applicationText {
+	width: 462px;
+	height: 188px;
+    background: none;
+    margin-top: 27px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding:20px;
+    box-sizing: border-box;
+    font-family: "Century Gothic";
+    font-weight: 700;
+}
+/*Стили полей при клике по ним*/
+#applicationName:focus, 
+#applicationEmail:focus, 
+#applicationTelephone:focus, 
+#applicationText:focus {
+    border-radius: 10px;
+    color: gold;
+    border: 1px solid gold;
+} 
+
+.applicationButton {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+    background: none;
+    display: block;
+
+	width: 329px;
+	height: 40px;
+	border-radius: 10px;
+
+	font-family: "Century Gothic";
+	font-size: 24px;
+	font-weight: 700;
+	color: white;
+
+}
+    .applicationButton:hover {
+        background-image: linear-gradient(to top, #f5fb47 0%, #f5fb47 13.5%, #ffffff 50%, #f5fb47 86.5%, #f5fb47 100%);
+		color: #162b4d;
+}
+.feedbackform textarea, input:focus { 
+	outline: none; 
+}
+.feedbackform textarea:focus { 
+	outline: none; 
+}
