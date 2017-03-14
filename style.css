@@ -613,7 +613,7 @@ cursor:pointer;}
 	display: inline-block;
 
 	position: absolute;
-	left: 42px;
+	left: 50px;
 	top: 77px;
 }
 #follow {
@@ -1425,8 +1425,9 @@ z-index: 10001;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: flex-start;
 	width: 1065px;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	margin-top: 54px;
 	margin-left: 225px;
 	margin-bottom: 5px;
@@ -1437,6 +1438,7 @@ z-index: 10001;
 	width: 350px;
 	background: transparent;
 	margin-top: 4px;
+	margin-left: 2px;
 	color: white;
 	font-family: "Century Gothic";
 	font-size: 18px;
@@ -1713,4 +1715,7 @@ z-index: 10001;
 }
 .feedbackform textarea:focus { 
 	outline: none; 
+}
+.favprod {
+	height: 1100px;
 }
