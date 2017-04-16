@@ -327,7 +327,7 @@ cursor:pointer;}
 	height: 84px;
 	display: flex;
 	flex-direction: row;
-	background-color: rgba(246, 242, 90, 0.95);
+	background-color: #ccbf61;
 }
 .navigation > ol {
 	width: 800px;
@@ -335,6 +335,7 @@ cursor:pointer;}
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 }
 .navigation a {
 	color: #1d3960;
@@ -409,7 +410,7 @@ cursor:pointer;}
 }
 .h1 {
 	width: 442px;
-	color: #ebe85b;
+	color:#ccbf61;
 	font-family: "Casper";
 	font-size: 98px;
 	font-weight: 600;
@@ -419,7 +420,7 @@ cursor:pointer;}
 }
 .h2 {
 	width: 364px;
-	color: #ebe85b;
+	color: #ccbf61;
 	font-family: "Casper";
 	font-size: 30px;
 	font-weight: 600;	
@@ -1719,3 +1720,138 @@ z-index: 10001;
 .favprod {
 	height: 1100px;
 }
+
+
+
+
+ .news .share_icons1 {
+ 	display: flex;
+ 	flex-direction: row;
+ 	width: 110px;
+ 	justify-content: space-between;
+ }
+ .news .share_icons1 a {
+ 	border: none;
+ 	padding: 0;
+ 	width: 33px;
+ 	height: 33px;
+ 	display: block;
+ }
+ .news .share_icons1 a:hover {
+ 	background-image: none;
+ }
+
+ .news .share_icons1 .share_fb {
+ 	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-fb.png');
+ 	background-repeat: no-repeat;
+ }
+  .news .share_icons1 .share_fb:hover {
+   	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-fb-g.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .news .share_icons1 .share_vk {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-vk.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .news .share_icons1 .share_vk:hover {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-vk-g.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .news .share_icons1 .share_tw {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-tw.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .news .share_icons1 .share_tw:hover {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-tw-g.png');
+ 	background-repeat: no-repeat;
+ }
+
+
+
+ .share_icons {
+ 	display: flex;
+ 	flex-direction: row;
+ 	width: 110px;
+ 	justify-content: space-between;
+ 	margin-left:225px;
+ 	margin-top: 15px;
+ }
+ .share_icons a {
+ 	border: none;
+ 	padding: 0;
+ 	width: 33px;
+ 	height: 33px;
+ 	display: block;
+ }
+ .share_icons a:hover {
+ 	background-image: none;
+ }
+
+ .share_icons .share_fb {
+ 	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-fb.png');
+ 	background-repeat: no-repeat;
+ }
+  .share_icons .share_fb:hover {
+   	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-fb-g.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .share_icons .share_vk {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-vk.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .share_icons .share_vk:hover {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-vk-g.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .share_icons .share_tw {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-tw.png');
+ 	background-repeat: no-repeat;
+ }
+
+ .share_icons .share_tw:hover {
+  	padding: 0;
+ 	height: 33px;
+	width: 33px;
+ 	background-image: url('images/share-tw-g.png');
+ 	background-repeat: no-repeat;
+ }

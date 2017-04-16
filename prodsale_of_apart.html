@@ -24,6 +24,38 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="minslider.css">
+    <script type="text/javascript">
+Share = {
+    vkontakte: function(purl, ptitle, pimg, text) {
+        url  = 'http://vkontakte.ru/share.php?';
+        url += 'url='          + encodeURIComponent(purl);
+        url += '&title='       + encodeURIComponent(ptitle);
+        url += '&description=' + encodeURIComponent(text);
+        url += '&image='       + encodeURIComponent(pimg);
+        url += '&noparse=true';
+        Share.popup(url);
+    },
+    facebook: function(purl, ptitle, pimg, text) {
+        url  = 'http://www.facebook.com/sharer.php?s=100';
+        url += '&p[title]='     + encodeURIComponent(ptitle);
+        url += '&p[summary]='   + encodeURIComponent(text);
+        url += '&p[url]='       + encodeURIComponent(purl);
+        url += '&p[images][0]=' + encodeURIComponent(pimg);
+        Share.popup(url);
+    },
+    twitter: function(purl, ptitle) {
+        url  = 'http://twitter.com/share?';
+        url += 'text='      + encodeURIComponent(ptitle);
+        url += '&url='      + encodeURIComponent(purl);
+        url += '&counturl=' + encodeURIComponent(purl);
+        Share.popup(url);
+    },
+
+    popup: function(url) {
+        window.open(url,'','toolbar=0,status=0,width=626,height=436');
+    }
+};
+</script>
 </head>
 
 
@@ -168,6 +200,17 @@
                         <div class="favorite">
                             <a href="#" id="favorite">Добавить в избранное</a>
                         </div>  
+        </div>
+        <div class="share_icons">
+            <div class="share_fb">
+                <a onclick="Share.facebook('URL','TITLE','IMG_PATH','DESC')"></a>
+            </div>
+            <div class="share_vk">
+                <a onclick="Share.vkontakte('URL','TITLE','IMG_PATH','DESC')"></a>
+            </div>
+            <div class="share_tw">
+                <a onclick="Share.twitter('URL','TITLE')"></a>
+            </div>
         </div>
         
         <div id="products_example">
