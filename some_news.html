@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rehouse</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/rehousemin.jpg" type="image/jpg">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery.1.10.min.js"></script>
+    <script type="text/javascript" src="lazyload.js"></script>
+
+
+<script type="text/javascript">
+Share = {
+    vkontakte: function(purl, ptitle, pimg, text) {
+        url  = 'http://vkontakte.ru/share.php?';
+        url += 'url='          + encodeURIComponent(purl);
+        url += '&title='       + encodeURIComponent(ptitle);
+        url += '&description=' + encodeURIComponent(text);
+        url += '&image='       + encodeURIComponent(pimg);
+        url += '&noparse=true';
+        Share.popup(url);
+    },
+    facebook: function(purl, ptitle, pimg, text) {
+        url  = 'http://www.facebook.com/sharer.php?s=100';
+        url += '&p[title]='     + encodeURIComponent(ptitle);
+        url += '&p[summary]='   + encodeURIComponent(text);
+        url += '&p[url]='       + encodeURIComponent(purl);
+        url += '&p[images][0]=' + encodeURIComponent(pimg);
+        Share.popup(url);
+    },
+    twitter: function(purl, ptitle) {
+        url  = 'http://twitter.com/share?';
+        url += 'text='      + encodeURIComponent(ptitle);
+        url += '&url='      + encodeURIComponent(purl);
+        url += '&counturl=' + encodeURIComponent(purl);
+        Share.popup(url);
+    },
+
+    popup: function(url) {
+        window.open(url,'','toolbar=0,status=0,width=626,height=436');
+    }
+};
+</script>
+
+
+</head>
+
+
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" id=""><img src="images/logo.png"></a>
+            </div>
+            <div class="search">
+                <p><form class="form-search" method="get" action="/search" target="_blank"><input type="text" name="q" placeholder="Введите слово или фразу" value="" /></form></p>
+                <div class="your_name">
+                    <div><p>Ваш логин:</p></div>
+                    <div class="your_login"><p><a href="#" class="" id="#">Nonamesss</a></p></div>
+                    <div class="logout"><p><a href="#">Выйти из аккаунта</a></p></div>
+                </div>
+            </div>
+            <div class="contactinfo">
+                <div class="tel">
+                    <div class="imgtel">
+                        <img src="images/tel.png">
+                    </div>
+                    <div class="number">
+                        <p>+38063 000 0000</p>
+                        <p>+38063 000 0000</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="#" class="fb"></a>
+                    <a href="#" class="yt"></a>
+                    <a href="#" class="gmail"></a>
+                    <a href="#" class="vk"></a>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <a href="#" id="fav">Список желаний</a>
+                <a href="feedback.html" id="blink">Обратный звонок</a>
+            </div>
+
+        </div>
+
+        <div id="nav">
+            <div class="navigation">
+                <ol>
+                    <li>
+                        <a href="#" id="">Продажа</a>
+                        <ol>
+                            <li><a href="#">Купить квартиру</a></li>
+                            <li><a href="#">Купить дом</a></li>
+                            <li><a href="#">Купить участок</a></li>
+                            <li><a href="#">Купить коммерческую</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#" id="">Аренда</a>
+                        <ol>
+                            <li><a href="#">Снять квартиру</a></li>
+                            <li><a href="#">Снять дом</a></li>
+                            <li><a href="#">Снять участок</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="novostroy.html" id="">Новостройки</a></li>
+                    <li><a href="#" id="">Менеджеры</a></li>
+                    <li>
+                        <a href="#" id="">О нас</a>
+                        <ol>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Вакансии агенства</a></li>
+                        </ol>
+
+
+                    </li>
+                    <li>
+                        <a href="#" class="f" id="log_in">Войти</a>
+
+                        <div class="form-drop">
+                            <ol class="login">
+                                <li>
+                                    <div class="login">
+                                        <div class="bodyform">
+                                            <form action="#" class="login-form">
+                                                <div class="headform">
+                                                    <h1>Вход в аккаунт</h1>
+                                                </div>
+                                                <div class="input-wrap">
+                                                    <div class="label">Введите ваш email</div>
+                                                    <label for="" class="user-id"><input type="text" name="userId" placeholder="email"></label>
+                                                    <div class="label">Введите пароль</div>
+                                                    <label for="" class="password"><input type="password" name="password" placeholder="Вfi пароль"></label>
+                                                </div>
+
+                                                <div class="errortext">
+                                                    <span class="erroremail">Вы ввели не правильный эмейл</span>
+                                                    <span class="errorpas">Вы ввели не правильный пароль</span>
+                                                </div>
+                                                <div class="buttonblock">
+                                                    <input type="submit" class="button" value="ВОЙТИ">
+                                                </div>
+                                                <div class="forgotpas" id="forgotpas">
+                                                    <p class="forgot"><a href="#" class="#" id="#">Забыли пароль?</a></p>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="sell">
+                <a href="#" id="">Хочу продать!</a>
+            </div>
+        </div>
+
+        <div class="navigation_string">
+            <div class="way">
+                <a href="index.html">Главная</a>
+                <pre> </pre>
+                <p>/</p>
+                <pre> </pre>
+                <a href="news.html">Новости</a>
+            </div>
+        </div>
+
+<div class="news">
+    <h2>Шикарные апартаменты в центре города</h2>
+    <div class="firstnews">
+        <div class="img">
+            <img src="images/news1.jpg" width="440" height="263">
+        </div>
+        <div class="content1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseq magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi temporais nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi temporais nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi temporais nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est lqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore mamet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore m</p>
+        <div class="share_icons1">
+            <div class="share_fb">
+                <a onclick="Share.facebook('URL','TITLE','IMG_PATH','DESC')"></a>
+            </div>
+            <div class="share_vk">
+                <a onclick="Share.vkontakte('URL','TITLE','IMG_PATH','DESC')"></a>
+            </div>
+            <div class="share_tw">
+                <a onclick="Share.twitter('URL','TITLE')"></a>
+            </div>
+        </div>
+            <h4>12.08.2016 в 17:43</h4>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <div id="toTop"></div>
+            <div class="social">
+                <a href="#" class="fb"></a>
+                <a href="#" class="tw"></a>
+                <a href="#" class="gmail"></a>
+                <a href="#" class="vk"></a>
+            </div>
+            <div class="bottomnav">
+                <a href="#" class="">Новости</a>
+                <a href="#" class="">Контакты</a>
+                <a href="#" class="">Карта сайта</a>
+                <a href="#" class="">Отзывы</a>
+                <a href="#" class="">Правила</a>
+            </div>
+        </div>
+</div>
+
+
+</body>
+</html>

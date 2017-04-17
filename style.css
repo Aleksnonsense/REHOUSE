@@ -737,6 +737,7 @@ cursor:pointer;}
 }
 .news .img img {
 	object-fit: cover;
+	margin-top: 5px;
 }
 .news .morenews #more {
 	padding: 11px 469px 10px 474px;	
