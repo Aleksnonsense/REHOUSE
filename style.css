@@ -1856,3 +1856,79 @@ z-index: 10001;
  	background-image: url('images/share-tw-g.png');
  	background-repeat: no-repeat;
  }
+
+
+
+
+
+ .selection-admin {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 635px;
+	justify-content: space-between;
+	margin-top: 32px;
+}
+
+.selection-admin select {
+	width: 199px;
+	height: 30px;
+	 -moz-appearance: none;
+  	appearance: none;
+    -webkit-appearance: none;
+	background: transparent;
+	background: url(images/select.png) no-repeat right;
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 15px;
+	font-weight: 700;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	padding-left: 5px;
+
+	margin-bottom: 10px;
+}
+.selection-admin select option {
+	background-color: #163d7d;
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: none;
+	}
+.selection-admin select:focus {
+	color: gold;
+	background: url(images/select_hover.png) no-repeat right;
+}
+.selection-admin select:hover {
+	color: gold;
+	background: url(images/select_hover.png) no-repeat right;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+}
+.search-button-admin {
+	width: 199px;	
+	color: #25406a;
+	font-family: "Century Gothic";
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 9px;
+}
+.search-button-admin a {
+	padding: 5px 75px 5px 75px;
+	text-decoration: none;	
+	border: 1px solid white;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 15px;
+	font-weight: 700;
+	background: transparent;
+	cursor:pointer; 	
+}
+.search-button-admin a:hover {
+	background-image: linear-gradient(to top, #797f2b 0%, #959958 13.5%, #ffffff 50%, #f9feb1 86.5%, #f6fea3 100%);
+    color: #25406a;
+    -webkit-transition: .5s ease;
+	transition: .5s ease;
+}

@@ -211,7 +211,7 @@ input.youtube-video {
 	padding: 10px 40px 10px 40px;
 }
 button.delete_all {
-	margin-left: 476px;
+	/*margin-left: 476px;*/
 }
 .img_news img {
 	object-fit: cover;
