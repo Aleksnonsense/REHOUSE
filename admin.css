@@ -196,7 +196,7 @@ input._cost_ {
 	width: 300px;
 }
 textarea {
-	width: 600px;
+	width: 300px;
 }
 input.youtube-video {
 	width: 300px;
@@ -247,25 +247,25 @@ button.delete_all2 {
 	font-size: 30px;
 }
 
-.contact_info select {
+.contact_info table select {
 	width: 302px;
 	background: none;
     border: 1px solid white;
     color: white;
 }
-.contact_info select option {
+.contact_info table select option {
     background-color: #163d7d;
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
     text-transform: none;
    }
-.contact_info input {
+.contact_info table input {
    background: none;
     border: 1px solid white;
     color: white;
 }
-.contact_info textarea {
+.contact_info table textarea {
    background: none;
     border: 1px solid white;
     color: white;
