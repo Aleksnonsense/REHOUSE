@@ -81,7 +81,7 @@ input {
 	width:1350px; 
 }
 #adminka1 {
-	height: 800px;
+	/*height: 800px;*/
 }
 @media aural{
 .tabset_content,	
@@ -245,4 +245,34 @@ button.delete_all2 {
 }
 .edit_del p {
 	font-size: 30px;
+}
+
+.contact_info select {
+	width: 302px;
+	background: none;
+    border: 1px solid white;
+    color: white;
+}
+.contact_info select option {
+    background-color: #163d7d;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+   }
+.contact_info input {
+   background: none;
+    border: 1px solid white;
+    color: white;
+}
+.contact_info textarea {
+   background: none;
+    border: 1px solid white;
+    color: white;
+}
+.contact_info .file_upload {
+	margin-bottom: 10px;
+}
+.contact_info button {
+	margin-bottom: 20px;
 }
