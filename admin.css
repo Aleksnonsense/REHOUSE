@@ -271,6 +271,7 @@ button.delete_all2 {
     border: 1px solid white;
     color: white;
     font-size: 14px;
+    width: 294px;    
 }
 .contact_info .file_upload {
 	margin-bottom: 10px;
