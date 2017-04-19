@@ -1932,3 +1932,114 @@ z-index: 10001;
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
+
+.about_company {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 1332px;
+}
+.about_company1 {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 225px;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 1332px;
+}
+
+.about_company p {
+    color: white;
+    line-height: 22px;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+.about_company h2 {
+    margin-top: 35px;
+    margin-bottom: 9px;
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#map_company {
+	margin-bottom: 60px;
+	margin-left: 225px;
+}
+.photo_company {
+	width: 821px;
+	margin-left: 340.5px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.photo_company img {
+	object-fit: contain;
+}
+
+.about_company .call_us {
+	margin-top: 18px;
+	margin-bottom: 50PX;
+}
+.about_company .call_us p {
+	color: white;
+    line-height: 22px;
+    font-size: 22px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+.about_company1 p {
+    color: white;
+    line-height: 22px;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+.about_company1 h2 {
+    margin-top: 35px;
+    margin-bottom: 9px;
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.form_comment {
+    width: 500px;
+    margin-left: 85px;
+    margin-top: 25px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.form_comment h3 {
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.form_comment input, textarea {
+    border: 1px solid white;
+    color: white;
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: 700;
+    padding: 4px;
+    background: none;
+}
+.form_comment p {
+    margin-bottom: 10px;
+        color: white;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
