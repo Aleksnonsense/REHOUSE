@@ -2,6 +2,10 @@
 	font-family: Casper;
 	src: url(fonts/casper/casper.woff);
 }
+@font-face {
+	font-family: Open Sans;
+	src: url(fonts/open sans/open sans.ttf);
+}
 
 body {
 	margin:0; 
@@ -110,7 +114,8 @@ cursor:pointer;}
 	font-family: Casper;
 	font-size: 12px;
 	text-transform: uppercase;
-	margin-left: 18px;
+	    /* margin-left: 18px; */
+    margin-top: 7px;
 }
 .form-search {
 	border-radius: 10px;
@@ -245,13 +250,16 @@ cursor:pointer;}
 .header .feedback {
 	display: flex;
 	flex-direction: column;
+	position: relative;
 	
 	margin-top: 20px;
 	margin-left: 30px;
 	width: 100px;
 }
 .header #blink {
-	position: relative;	
+	    position: fixed;
+    bottom: 20px;
+    right: 30px;
 	padding: 12px 8px 12px 38px;
 	background-color: #123360;	
 		text-decoration: none;
@@ -409,11 +417,11 @@ cursor:pointer;}
 	color: gold;
 }
 .h1 {
-	width: 442px;
+	width: 455px;
 	color:#ccbf61;
-	font-family: "Casper";
+	font-family: "Open Sans";
 	font-size: 98px;
-	font-weight: 600;
+	font-weight: 900;
 	text-transform: uppercase;
 	margin-left: 223px;
 	margin-top: 50px;
@@ -421,11 +429,11 @@ cursor:pointer;}
 .h2 {
 	width: 364px;
 	color: #ccbf61;
-	font-family: "Casper";
+	font-family: "Open Sans";
 	font-size: 30px;
 	font-weight: 600;	
 	text-transform: uppercase;
-	margin-left: 227px;
+	margin-left: 228px;
 }
 .knowmore {
 	margin-top: 49px;
@@ -1008,8 +1016,8 @@ cursor:pointer;}
 	padding:10px;
 	border-radius: 10px 10px 0 0;
 	position:fixed;
-	bottom:30px;  
-	right:55px;
+	bottom:70px;  
+	right:70px;
 	cursor:pointer;
 	display:none;	
 	opacity: 0.8;
@@ -2078,4 +2086,11 @@ z-index: 10001;
     font-size: 16px;
     font-weight: bold;
     line-height: 20px;
+}
+.managers .manager_ .contactinfo h3 a {
+	text-decoration: none;
+	color: white;
+}
+.managers .manager_ .contactinfo h3 a:hover {
+	color: gold;
 }
