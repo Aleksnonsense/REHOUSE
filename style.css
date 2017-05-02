@@ -398,7 +398,7 @@ cursor:pointer;}
 	z-index: 10001;
 }
 #nav .sell {
-	margin-left: 118px;
+	margin-left: 100px;
 	margin-top: 33px;	
 }
 #nav .sell a {
@@ -932,7 +932,7 @@ cursor:pointer;}
 }
 .footer {
 	height: 52px;
-	background-color: #0f2547;
+	/*background-color: #0f2547;*/
 	display: flex;
 	flex-direction: row;
 }
@@ -1313,22 +1313,6 @@ z-index: 10001;
     -webkit-transition: .5s ease;
 	transition: .5s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .prods li img {
 	object-fit: cover;
 }
@@ -1582,7 +1566,7 @@ z-index: 10001;
 .map_managercard .manager {
 	display: flex;
 	margin-left: 275px;
-	margin-top: 10px;	
+	margin-top: 14px;	
 	width:422px;
 }
 .map_managercard .manager .manager_info {
@@ -1617,9 +1601,14 @@ z-index: 10001;
 	top: 60px;
 	right: 219px;
 }
+.h2novostroy .favorite1 {
+	position: absolute;
+	top: 113px;
+	right: 219px;
+}
 .h2novostroy #favorite {	
-	width: 422px;
-	padding: 15px 69px 17px 74px;	
+	width: 400px;
+	padding: 10px 60px 10px 60px;	
 	border-radius: 10px;
 	background: none;
 	border: 1px solid white;
@@ -2094,3 +2083,17 @@ z-index: 10001;
 .managers .manager_ .contactinfo h3 a:hover {
 	color: gold;
 }
+.adress {
+	display: flex;
+	flex-direction: row;
+	width: 1065px;
+}
+.adress a {
+	text-decoration: none;
+	color: white;
+}
+.adress a:hover {
+	color:gold;
+}
+
+
