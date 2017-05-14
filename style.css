@@ -16,10 +16,13 @@ body a, select, button {
 	cursor: pointer;
 }
 .container {
-	min-width: 1500px;
+	/*min-width: 1500px;*/
 	max-width: 1500px;
 	margin: 0 auto;	
 	position: relative;	
+}
+.header_mobile {
+	display: none;
 }
 #slidebox {
 	position:relative; 

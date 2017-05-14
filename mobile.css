@@ -1,0 +1,121 @@
+@media (max-width: 1366px){
+body {
+   transform: scale(0.9);
+   transform-origin: 0 0;
+	}
+}
+@media (max-width: 768px){
+.container {
+  max-width: 768px;
+	}
+	#slidebox {
+		display: none;
+	}
+	.header_mobile {
+	display: block;
+}
+
+
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 80%;
+  background-color: #eee;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  transition: left .2s;
+  z-index: 10003;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  text-align: center;
+  background-color: rgba(204, 191, 97, 0.9);
+}
+.hidden-menu a {
+  display: block;
+  text-decoration: none;
+      color: #1d3960;
+    font-family: "Casper";
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 0 10px 0;
+  }
+
+.hidden-menu a:hover {
+  background-color: rgba(3, 2, 2, 0.6);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: white;
+}
+.hidden-menu .bgh {
+  background-color: rgba(3, 2, 2, 0.3);
+}
+.hidden-menu a.bold {
+  font-weight: 900;
+  color: #0e2447;
+}
+
+.hidden-menu-ticker {
+  display: none;
+}
+.btn-menu {
+  color: #fff;
+  background-color: #666;
+  padding: 5px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 10004;
+  width: 25px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 73%;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 10px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -10px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
