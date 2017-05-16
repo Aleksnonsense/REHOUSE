@@ -56,12 +56,63 @@ Share = {
     }
 };
 </script>
+
+<style media='print' type='text/css'>
+
+    .noprint {
+        display: none;
+    }
+    .othernovostroy {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .print {
+        display: none;
+    }
+
+body {
+    background:#FFF; color:black;
+}
+.seotext3 h1 {
+    color: black;
+    text-decoration: none;
+}
+.seotext3 p {
+    color: black;
+    text-decoration: none;
+    font-size: 0.5cm;
+}
+.seotext3 h2 {
+    color: black;
+    text-decoration: none;
+}
+.h2novostroy h2 {
+    color: black;
+    text-decoration: none;
+}
+.table_of_prodapart table tr td {
+    color: black;
+    text-decoration: none;
+}
+.container {
+    margin-left: -150px;
+}
+.seotext3 p.text {  
+width: 1000px;
+}
+.seotext3 {
+    margin-top: -50px;
+}
+</style>
 </head>
 
 
 <body>
-    <div class="container" id="container">
 
+    <div class="container" id="container">
+<span class="noprint">
         <div class="header">
 
             <div class="logo">
@@ -195,8 +246,10 @@ Share = {
                 <a href="gallery.html">3-х комнатные квартиры</a>
             </div>
         </div>
+</span>
         <div class="h2novostroy">
                     <h2>3-х комнатная квартира, г. Одесса, ул. Успенская</h2>
+<span class="noprint">
                         <div class="favorite">
                             <a href="#" id="favorite">Добавить в избранное</a>
                         </div> 
@@ -215,7 +268,7 @@ Share = {
                 <a onclick="Share.twitter('URL','TITLE')"></a>
             </div>
         </div>
-        
+<span class="noprint">        
         <div id="products_example">
             <div id="products">
                 <div class="slides_container">
@@ -230,8 +283,12 @@ Share = {
                 </ul>
             </div>
         </div>
-
+</span>
 <div class="seotext3">
+            <div class="print">
+            <a href='javascript:window.print(); void 0;'> <img src="images/pechat.png" / >
+            </a>
+            </div>
     <div class="h2sale"><h2>Описание квартиры</h2></div>
 
 
@@ -251,7 +308,7 @@ Share = {
         <p class="square_meter">705 $ за м²</p>
     </div>
 
-    <p>Продам 1-ком. квартиру. Дом внутри квартала, 2-й ряд. Окна выходят в большой палисадник, есть возможность большой пристройки. Общая площадь – 34 кв. м, комната – 18 кв. м., кухня – 9 кв. м. Санузел раздельный. Парадная чистая, дверь на кодовом замке. Большой двор с детской площадкой, зонами отдыха, парковкой. Рядом рынок Южный, супермаркеты, школа, детский сад. Хорошая транспортная развязка. 24 тыс., торг!</p>
+    <p class="text">Продам 1-ком. квартиру. Дом внутри квартала, 2-й ряд. Окна выходят в большой палисадник, есть возможность большой пристройки. Общая площадь – 34 кв. м, комната – 18 кв. м., кухня – 9 кв. м. Санузел раздельный. Парадная чистая, дверь на кодовом замке. Большой двор с детской площадкой, зонами отдыха, парковкой. Рядом рынок Южный, супермаркеты, школа, детский сад. Хорошая транспортная развязка. 24 тыс., торг!</p>
 </div>
         <div class="table_of_prodapart">
             <table>
@@ -294,7 +351,7 @@ Share = {
                 
             </table>
         </div>
-
+<span class="noprint">
         <div class="video-youtube">
         <iframe width="711" height="533" src="https://www.youtube.com/embed/pP9YV_P6WsM" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -323,10 +380,8 @@ Share = {
 </div>
 
 
-
-
     <div class="h2prodsale"><h2>Новинки продаж</h2></div>
-
+<span class="noprint"><span class="noprint">
     <div class="othernovostroy">
                <ul class="prods" id="data-container">
                 <div class="data-item">
@@ -450,7 +505,6 @@ Share = {
             </div>
         </div>
 </div>
-
-
+</span>
 </body>
 </html>

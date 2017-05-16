@@ -2098,5 +2098,18 @@ z-index: 10001;
 .adress a:hover {
 	color:gold;
 }
+.error_status {
+	color: red;
+	font-family: Arial;
+	font-size: 18px;
+}
 
-
+.print {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 265px;
+}
+.seotext3 {
+	position: relative;
+}
