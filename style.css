@@ -1188,6 +1188,9 @@ z-index: 10001;
 	border-top: 1px solid white;
 	padding-left: 5px;
 }
+.selection ._cost select {
+    width: 120px;
+}
 .selection select option {
 	background-color: #163d7d;
 	color: #ffffff;
@@ -1755,12 +1758,8 @@ z-index: 10001;
 	outline: none; 
 }
 .favprod {
-	height: 1100px;
+	height: cover;
 }
-
-
-
-
  .news .share_icons1 {
  	display: flex;
  	flex-direction: row;
@@ -2112,4 +2111,10 @@ z-index: 10001;
 }
 .seotext3 {
 	position: relative;
+}
+#mapnovostroy1 {
+	display: none;
+}
+#fav2 {
+	display: none;
 }

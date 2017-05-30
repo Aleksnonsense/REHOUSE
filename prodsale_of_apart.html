@@ -106,12 +106,17 @@ width: 1000px;
     margin-top: -50px;
 }
 </style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 
 
 <body>
 
     <div class="container" id="container">
+<span class="none">
 <span class="noprint">
         <div class="header">
 
@@ -247,11 +252,97 @@ width: 1000px;
             </div>
         </div>
 </span>
+</span>
+
+
+
+<div class="header_mobile">
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+<label class="btn-menu" for="hmt">
+  <span class="first"></span>
+  <span class="second"></span>
+  <span class="third"></span>
+</label>
+<ul class="hidden-menu">
+  <li class="bgh"><a href="" class="bold">Продажа</a></li>
+    <ol>
+        <li><a href="sale_of_apartments.html">Купить квартиру</a></li>
+        <li><a href="#">Купить дом</a></li>
+        <li><a href="#">Купить участок</a></li>
+        <li><a href="#">Купить коммерческую</a></li>
+    </ol>
+    <br>
+  <li class="bgh"><a href="" class="bold">Аренда</a></li>
+    <ol>
+        <li><a href="#">Снять квартиру</a></li>
+        <li><a href="#">Снять дом</a></li>
+        <li><a href="#">Снять участок</a></li>
+    </ol>
+    <br>
+  <li class="bgh"><a href="" class="bold">Новострои</a></li>
+  <br>
+  <li class="bgh"><a href="" class="bold">Менеджеры</a></li>
+  <br>  
+  <li class="bgh"><a href="" class="bold">О нас</a></li>
+    <ol>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Вакансии агенства</a></li>
+    </ol>  
+</ul>
+    <div class="header">
+                    <div class="logo">
+                         <a href="index.html" id=""><img src="images/logomobile.png"></a>
+                    </div>
+                <div class="contactinfo">
+                    <div class="feedback"> 
+                        <a href="feedback.html" id="blink1"></a>   
+                        <a href="#" id="fav1"></a>
+                    </div>
+                    
+                        <div class="tel">
+                            <div class="imgtel">
+                                <img src="images/tel.png">
+                            </div>
+                            <div class="number">
+                                 <p>+38063 000 0000</p>
+                                 <p>+38063 000 0000</p>
+                            </div>
+                        </div>                        
+                </div>             
+        </div>
+    <div class="search1">
+        <p><form class="form-search" method="get" action="/search" target="_blank"><input type="text" name="q" placeholder="Введите слово или фразу" value=""/></form></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="h2novostroy">
                     <h2>3-х комнатная квартира, г. Одесса, ул. Успенская</h2>
 <span class="noprint">
                         <div class="favorite">
                             <a href="#" id="favorite">Добавить в избранное</a>
+                            <a href="#" id="fav2"></a>
                         </div> 
                         <div class="favorite1">
                             <a href="feedback.html" id="favorite">Подать заявку </a>
@@ -352,14 +443,15 @@ width: 1000px;
             </table>
         </div>
 <span class="noprint">
-        <div class="video-youtube">
-        <iframe width="711" height="533" src="https://www.youtube.com/embed/pP9YV_P6WsM" frameborder="0" allowfullscreen></iframe>
-</div>
+        
       
 <div class="map_managercard">
 
     <div id="mapapart_prod">
         <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d101681.05935008111!2d30.6809567124572!3d46.42350678371972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L7QtNC10YHRgdCwINC20LXQvNGH0YPQttC40L3Riw!5e0!3m2!1sru!2sua!4v1485299309010" width="614px" height="428px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div id="mapnovostroy1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d101681.05935008111!2d30.6809567124572!3d46.42350678371972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L7QtNC10YHRgdCwINC20LXQvNGH0YPQttC40L3Riw!5e0!3m2!1sru!2sua!4v1485299309010" width="700px" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
     <div class="manager">
@@ -379,8 +471,9 @@ width: 1000px;
     </div>
 </div>
 
-
+<span class="none">
     <div class="h2prodsale"><h2>Новинки продаж</h2></div>
+    </span>
 <span class="noprint"><span class="noprint">
     <div class="othernovostroy">
                <ul class="prods" id="data-container">

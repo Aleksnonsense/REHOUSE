@@ -6,12 +6,14 @@
     <link rel="shortcut icon" href="images/rehousemin.jpg" type="image/jpg">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 
 
 <body>
     <div class="container" id="container">
-
+<span class="none">
         <div class="header">
 
             <div class="logo">
@@ -141,6 +143,77 @@
                 <a href="novostroy.html">Новостройки</a>
             </div>
         </div>
+
+</span>
+
+<div class="header_mobile">
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+<label class="btn-menu" for="hmt">
+  <span class="first"></span>
+  <span class="second"></span>
+  <span class="third"></span>
+</label>
+<ul class="hidden-menu">
+  <li class="bgh"><a href="" class="bold">Продажа</a></li>
+    <ol>
+        <li><a href="sale_of_apartments.html">Купить квартиру</a></li>
+        <li><a href="#">Купить дом</a></li>
+        <li><a href="#">Купить участок</a></li>
+        <li><a href="#">Купить коммерческую</a></li>
+    </ol>
+    <br>
+  <li class="bgh"><a href="" class="bold">Аренда</a></li>
+    <ol>
+        <li><a href="#">Снять квартиру</a></li>
+        <li><a href="#">Снять дом</a></li>
+        <li><a href="#">Снять участок</a></li>
+    </ol>
+    <br>
+  <li class="bgh"><a href="" class="bold">Новострои</a></li>
+  <br>
+  <li class="bgh"><a href="" class="bold">Менеджеры</a></li>
+  <br>  
+  <li class="bgh"><a href="" class="bold">О нас</a></li>
+    <ol>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Вакансии агенства</a></li>
+    </ol>  
+</ul>
+    <div class="header">
+                    <div class="logo">
+                         <a href="index.html" id=""><img src="images/logomobile.png"></a>
+                    </div>
+                <div class="contactinfo">
+                    <div class="feedback"> 
+                        <a href="feedback.html" id="blink1"></a>   
+                        <a href="#" id="fav1"></a>
+                    </div>
+                    
+                        <div class="tel">
+                            <div class="imgtel">
+                                <img src="images/tel.png">
+                            </div>
+                            <div class="number">
+                                 <p>+38063 000 0000</p>
+                                 <p>+38063 000 0000</p>
+                            </div>
+                        </div>                        
+                </div>             
+        </div>
+    <div class="search1">
+        <p><form class="form-search" method="get" action="/search" target="_blank"><input type="text" name="q" placeholder="Введите слово или фразу" value=""/></form></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
         <div class="h2novostroy"><h2>Новостройки</h2></div>
         <div class="selection">
             <div class="region">
@@ -160,7 +233,19 @@
 
             <div class="_cost">
                 <select>
-                    <option>Цена за кв. м</option>
+                    <option>Цена от</option>
+                    <option>Цена</option>
+                    <option>--</option>
+                    <option>Цена</option>
+                    <option>Цена</option>
+                    <option>Цена</option>
+                    <option>Цена</option>
+                    <option>--</option>
+                    <option>Цена</option>
+                    <option>Цена</option>
+                </select>
+                <select>
+                    <option>до</option>
                     <option>Цена</option>
                     <option>--</option>
                     <option>Цена</option>
@@ -208,7 +293,7 @@
                 <a href="">Поиск</a>
             </div>
         </div>
-
+<div class="h2novostroy"><h2>Новые объявления</h2></div>
         <div class="products">
 
             <ul class="prods" id="data-container">
